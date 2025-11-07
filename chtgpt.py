@@ -1,7 +1,10 @@
 import google.generativeai as genai
 import os
+from dotenv import load_dotenv
 
-genai.configure(api_key="AIzaSyDdzEN295NvOy0lW_dF5tYzNOGrdueRkpo")
+load_dotenv()
+
+genai.configure(api_key=os.getenv("CONTRASENA"))
 
 ruta_instrucciones = "instruccionesia.txt"
 
@@ -14,7 +17,7 @@ with open(ruta_instrucciones, "r", encoding="utf-8") as f:
 if not instrucciones:
     raise ValueError("El archivo 'instruccionesia.txt' está vacío. Por favor, agrega instrucciones válidas.")
 
-model = genai.GenerativeModel("gemini-1.5-flash-latest")
+model = genai.GenerativeModel("gemini-2.5-pro")
 
 def corregir(texto_a_corregir: str) -> str:
     chat = model.start_chat()
