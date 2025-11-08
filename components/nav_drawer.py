@@ -1,19 +1,30 @@
 import flet as ft
 
-def create_drawer(navigate_callback):
+def create_drawer(navigate_to):
+    def handle_change(e):
+        selected_index = e.control.selected_index
+        if selected_index == 0:
+            navigate_to("text_tools")
+        elif selected_index == 1:
+            navigate_to("settings")
+        elif selected_index == 2:
+            navigate_to("credits")
+
     return ft.NavigationDrawer(
+        on_change=handle_change,
         controls=[
-            ft.Container(height=20),
-            ft.Text("Menu", size=18, weight=ft.FontWeight.BOLD, text_align=ft.TextAlign.CENTER),
-            ft.Divider(),
             ft.NavigationDrawerDestination(
-                icon=ft.Icons.TEXT_FIELDS, label="Text Tools", selected_icon=ft.Icons.TEXT_FIELDS_OUTLINED
+                icon=ft.Icons.TEXT_FIELDS,
+                label="Text Tools"
             ),
             ft.NavigationDrawerDestination(
-                icon=ft.Icons.SETTINGS, label="Settings", selected_icon=ft.Icons.SETTINGS_OUTLINED
+                icon=ft.Icons.SETTINGS,
+                label="Settings"
             ),
-        ],
-        on_change=lambda e: navigate_callback(
-            "text_tools" if e.control.selected_index == 0 else "settings"
-        ),
+            ft.Divider(thickness=1),
+            ft.NavigationDrawerDestination(
+                icon=ft.Icons.FAVORITE_OUTLINE,
+                label="Credits & Support"
+            ),
+        ]
     )

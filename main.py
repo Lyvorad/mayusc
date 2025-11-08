@@ -3,6 +3,7 @@ from components.app_bar import create_appbar
 from components.nav_drawer import create_drawer
 from pages.text_tools_page import TextToolsPage
 from pages.settings_page import SettingsPage
+from pages.credits_page import CreditsPage
 from theme import AppTheme
 
 class AppState:
@@ -30,6 +31,8 @@ def main(page: ft.Page):
             current_page.content = TextToolsPage(page, app_state)
         elif route == "settings":
             current_page.content = SettingsPage(page)
+        elif route == "credits":
+            current_page.content = CreditsPage(page)  # nueva página
         page.drawer.open = False
         page.update()
 

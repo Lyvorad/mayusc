@@ -133,7 +133,11 @@ def TextToolsPage(page: ft.Page, app_state):
             i += 1
             await asyncio.sleep(0.3)
 
-    page.run_task(animate_ai_button)
+    async def start_animation_later():
+        await asyncio.sleep(0.1)  # pequeña pausa para asegurar que se renderizó
+        await animate_ai_button()
+
+    page.run_task(start_animation_later)
 
     # Fila de botones
     buttons = ft.Row(
