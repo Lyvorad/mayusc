@@ -45,6 +45,7 @@ def main(page: ft.Page):
 
     # Añadir página expandida
     page.add(current_page)
+    page.web_asset_path = "static"
 
 
 if __name__ == "__main__":
