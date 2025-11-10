@@ -45,7 +45,6 @@ def main(page: ft.Page):
 
     # Añadir página expandida
     page.add(current_page)
-    page.web_asset_path = "static"
 
 
 if __name__ == "__main__":
@@ -58,5 +57,5 @@ if __name__ == "__main__":
         target=main,
         view=None,          # no abre navegador local
         port=port,
-        assets_dir="."      # sirve archivos estáticos desde la raíz del proyecto
+        assets_dir="static"      # sirve archivos estáticos desde la raíz del proyecto
     )
