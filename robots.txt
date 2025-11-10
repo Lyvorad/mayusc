@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mayusc.lat/sitemap.xml
