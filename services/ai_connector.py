@@ -1,13 +1,15 @@
 import google.generativeai as genai
 import os
-import asyncio
 from dotenv import load_dotenv
+import asyncio
 
 load_dotenv()
+
+#  Configurar API Key
 genai.configure(api_key=os.getenv("CONTRASENA"))
 
+#  Leer instrucciones desde archivo
 ruta_instrucciones = "instruccionesia.txt"
-
 if not os.path.exists(ruta_instrucciones):
     raise FileNotFoundError(f"File '{ruta_instrucciones}' not found.")
 
@@ -17,36 +19,41 @@ with open(ruta_instrucciones, "r", encoding="utf-8") as f:
 if not instrucciones:
     raise ValueError("The file 'instruccionesia.txt' is empty. Please add valid instructions.")
 
-#  Mantener gemini-2.5-pro (Xhale lo necesita)
+#  Configurar el modelo Gemini Pro
 model = genai.GenerativeModel(
     model_name="gemini-2.5-pro",
     generation_config=genai.types.GenerationConfig(
-        temperature=0.2,          # Más directo
-        max_output_tokens=500,    # Subimos a 500 para evitar truncado
+        temperature=0.2,          # más directo
+        max_output_tokens=400,    # un poco menos = más rápido
+        top_p=0.8,                # reduce variabilidad
+        top_k=40
     )
 )
 
-#  Versión asincrónica
+#  Función asíncrona (para uso en Flet u otros entornos)
 async def correct_text_ai(text_to_correct: str) -> str:
+    if not text_to_correct.strip():
+        return "Error: No se recibió texto para corregir."
     try:
         chat = model.start_chat()
         chat.send_message(instrucciones)
         response = chat.send_message(f"Corrige el siguiente texto:\n\n{text_to_correct}")
 
-        # 🔹 Fix: verificar si hay texto antes de acceder
+        #  Verificación robusta del contenido
         if hasattr(response, "text") and response.text:
             return response.text.strip()
-        elif response.candidates:
-            # Recuperar el texto manualmente
-            parts = response.candidates[0].content.parts
-            if parts and hasattr(parts[0], "text"):
-                return parts[0].text.strip()
-        return "Error: La IA no devolvió texto."
+        elif response.candidates and response.candidates[0].content.parts:
+            part = response.candidates[0].content.parts[0]
+            if hasattr(part, "text") and part.text:
+                return part.text.strip()
+        return "No se recibió respuesta del modelo. Intenta de nuevo."
     except Exception as e:
         return f"Error: {e}"
 
-#  Versión sincrónica
+#  Versión sincrónica (para pruebas locales o scripts simples)
 def correct_text_sync(text_to_correct: str) -> str:
+    if not text_to_correct.strip():
+        return "Error: No se recibió texto para corregir."
     try:
         chat = model.start_chat()
         chat.send_message(instrucciones)
@@ -54,10 +61,10 @@ def correct_text_sync(text_to_correct: str) -> str:
 
         if hasattr(response, "text") and response.text:
             return response.text.strip()
-        elif response.candidates:
-            parts = response.candidates[0].content.parts
-            if parts and hasattr(parts[0], "text"):
-                return parts[0].text.strip()
-        return "Error: La IA no devolvió texto."
+        elif response.candidates and response.candidates[0].content.parts:
+            part = response.candidates[0].content.parts[0]
+            if hasattr(part, "text") and part.text:
+                return part.text.strip()
+        return "No se recibió respuesta del modelo. Intenta de nuevo."
     except Exception as e:
         return f"Error: {e}"
