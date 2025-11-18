@@ -1,0 +1,5 @@
+flet
+python-dotenv
+google-generativeai
+uvicorn
+fastapi
