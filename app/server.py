@@ -5,6 +5,7 @@ import threading
 import uvicorn
 import os
 from main import main as flet_main  # importamos la función main de flet
+from fastapi.responses import HTMLResponse
 
 import flet as ft
 
@@ -12,7 +13,7 @@ app = FastAPI()
 
 # Lanzar Flet en hilo separado
 def start_flet():
-    ft.app(target=flet_main, view=None, port=8550, assets_dir="static")
+    ft.app(target=flet_main, view=ft.WEB_BROWSER, port=None, assets_dir="static")
 
 t = threading.Thread(target=start_flet, daemon=True)
 t.start()
@@ -28,13 +29,10 @@ async def root():
     return RedirectResponse(url="/flet")
 
 # Ruta ejemplo para evitar 404
-@app.get("/flet")
-async def flet_ui_redirect():
-    # Si tu Flet UI está "embebida" disponible en la raíz, aquí podrías retornar
-    # contenido estático o redirigir al puerto interno. Muchas deploys usan un proxy.
-    # Como solución simple, intentamos redirigir a una dirección que Cloud/Render
-    # pueda enrutar internamente si está configurado.
-    return {"message": "Flet app running (interno). Si ves esto, Flet arrancó correctamente."}
+@app.get("/app", response_class=HTMLResponse)
+def serve_flet():
+    with open("build/web/index.html", "r", encoding="utf8") as f:
+        return f.read()
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8000))

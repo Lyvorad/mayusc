@@ -46,14 +46,3 @@ def main(page: ft.Page):
     # Añadir página expandida
     page.add(current_page)
 
-
-if __name__ == "__main__":
-
-    # Aseguramos que los archivos robots.txt y sitemap.xml estén en la carpeta actual
-    # para que Flet los sirva como archivos estáticos
-    ft.app(
-        target=main,
-        view=None,          # no abre navegador local
-        port=port,
-        assets_dir="static"      # sirve archivos estáticos desde la raíz del proyecto
-    )
