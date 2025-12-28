@@ -1,0 +1,80 @@
+{
+  "meta": { "language": "বাংলা", "direction": "ltr" },
+  "common": { "loading": "লোড হচ্ছে...", "error": "ত্রুটি", "success": "সফল" },
+  "navigation": { "home": "হোম", "textTools": "টেক্সট টুলস", "settings": "সেটিংস", "credits": "ক্রেডিটস" },
+  "pages": {
+    "home": {
+      "title": "হোম",
+      "subtitle": "টেক্সট রূপান্তরের জন্য একক সমাধান।",
+      "textToolsButton": "টেক্সট টুলস"
+    },
+    "textTools": {
+      "title": "টেক্সট টুলস",
+      "inputPlaceholder": "এখানে আপনার লেখা লিখুন...",
+      "outputPlaceholder": "ফলাফল এখানে দেখা যাবে...",
+      "buttons": {
+        "lowercase": "ছোট হাতের অক্ষর",
+        "uppercase": "বড় হাতের অক্ষর",
+        "aiCorrection": "AI সংশোধন",
+        "clear": "পরিষ্কার",
+        "copy": "কপি"
+      },
+      "messages": {
+        "correcting": "সংশোধন করা হচ্ছে... কিছুটা সময় লাগতে পারে",
+        "correctingError": "লেখা সংশোধনে ত্রুটি"
+      }
+    },
+    "settings": { "title": "সেটিংস" },
+    "credits": {
+      "title": "ক্রেডিটস",
+      "subtitle": "Lyvorad কর্তৃক",
+      "sections": {
+        "developers": "ডেভেলপার ও সহযোগীরা",
+        "technologies": "ব্যবহৃত প্রযুক্তি",
+        "acknowledgments": "বিশেষ ধন্যবাদ",
+        "versionHistory": "সংস্করণ ইতিহাস",
+        "policies": "নীতি ও শর্তাবলি",
+        "contact": "যোগাযোগ",
+        "suggestions": "পরামর্শ"
+      },
+      "team": {
+        "principal": "প্রধান দল",
+        "lyvorad": "Lyvorad - প্রধান উন্নয়ন ও নকশা",
+        "bfs": "B/FS উন্নয়ন - Gravity সিস্টেম",
+        "uxui": "UX/UI ডিজাইন - ভিজ্যুয়াল ন্যারেটিভ",
+        "qa": "QA টেস্টিং - Chaos Engineering"
+      },
+      "technologies": {
+        "frontend": "ফ্রন্টএন্ড: HTML5, CSS3, Vanilla JavaScript",
+        "icons": "আইকন: Google Material Icons",
+        "hosting": "হোস্টিং: Render",
+        "versionControl": "ভার্সন কন্ট্রোল: Git ও GitHub"
+      },
+      "acknowledgmentsText": "Mayusc ব্যবহার করে মতামত দেওয়া সকল ব্যবহারকারীদের ধন্যবাদ।",
+      "versions": {
+        "current": "v1.0.0 (বর্তমান) - প্রাথমিক সংস্করণ",
+        "upcoming": "v1.1.0 (শীঘ্রই) - আরও টুল ও AI উন্নতি"
+      },
+      "policies": {
+        "privacy": "গোপনীয়তা নীতি: আমরা আপনার লেখা সংরক্ষণ করি না।",
+        "terms": "ব্যবহারের শর্ত: ব্যক্তিগত ও শিক্ষামূলক ব্যবহারের জন্য বিনামূল্যে।",
+        "limitations": "সীমাবদ্ধতা: বাণিজ্যিক ব্যবহারের জন্য যোগাযোগ করুন।"
+      },
+      "contactText": "সহায়তা বা সহযোগিতার জন্য:",
+      "email": "ইমেইল:",
+      "website": "ওয়েবসাইট:",
+      "suggestionsText": "আপনার পরামর্শ পাঠান\nত্রুটি রিপোর্ট করুন",
+      "footer": "© 2026 Lyvorad. সর্বস্বত্ব সংরক্ষিত।"
+    }
+  },
+  "menu": {
+    "title": "Mayusc",
+    "close": "বন্ধ",
+    "version": "v1.0.0",
+    "copyright": "Lyvorad ™ 2026"
+  },
+  "ui": {
+    "copySuccess": "লেখা কপি হয়েছে!",
+    "selectLanguage": "ভাষা নির্বাচন করুন"
+  }
+}

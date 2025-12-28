@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "language": "हिन्दी",
+    "direction": "ltr"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता"
+  },
+  "navigation": {
+    "home": "मुखपृष्ठ",
+    "textTools": "पाठ उपकरण",
+    "settings": "सेटिंग्स",
+    "credits": "श्रेय"
+  },
+  "pages": {
+    "home": {
+      "title": "मुखपृष्ठ",
+      "subtitle": "पाठ रूपांतरण के लिए एक संपूर्ण उपकरण।",
+      "textToolsButton": "पाठ उपकरण"
+    },
+    "textTools": {
+      "title": "पाठ उपकरण",
+      "inputPlaceholder": "यहाँ अपना पाठ दर्ज करें...",
+      "outputPlaceholder": "परिणाम यहाँ दिखाई देगा...",
+      "buttons": {
+        "lowercase": "छोटे अक्षर",
+        "uppercase": "बड़े अक्षर",
+        "aiCorrection": "AI सुधार",
+        "clear": "साफ़ करें",
+        "copy": "कॉपी करें"
+      },
+      "messages": {
+        "correcting": "सुधार किया जा रहा है... कृपया प्रतीक्षा करें",
+        "correctingError": "पाठ सुधारने में त्रुटि"
+      }
+    },
+    "settings": {
+      "title": "सेटिंग्स"
+    },
+    "credits": {
+      "title": "श्रेय",
+      "subtitle": "Lyvorad द्वारा",
+      "sections": {
+        "developers": "डेवलपर्स और सहयोगी",
+        "technologies": "प्रयुक्त तकनीकें",
+        "acknowledgments": "विशेष धन्यवाद",
+        "versionHistory": "संस्करण इतिहास",
+        "policies": "नीतियाँ और शर्तें",
+        "contact": "संपर्क",
+        "suggestions": "सुझाव"
+      },
+      "team": {
+        "principal": "मुख्य टीम",
+        "lyvorad": "Lyvorad - मुख्य विकास और डिज़ाइन",
+        "bfs": "B/FS विकास - Gravity सिस्टम",
+        "uxui": "UX/UI डिज़ाइन - दृश्य कथा",
+        "qa": "QA परीक्षण - Chaos Engineering"
+      },
+      "technologies": {
+        "frontend": "फ्रंटएंड: HTML5, CSS3, वैनिला JavaScript",
+        "icons": "आइकन: Google Material Icons",
+        "hosting": "होस्टिंग: Render",
+        "versionControl": "संस्करण नियंत्रण: Git और GitHub"
+      },
+      "acknowledgmentsText": "Mayusc का परीक्षण करने और सुझाव देने वाले सभी उपयोगकर्ताओं को धन्यवाद।",
+      "versions": {
+        "current": "v1.0.0 (वर्तमान) - प्रारंभिक संस्करण",
+        "upcoming": "v1.1.0 (शीघ्र) - अधिक उपकरण और AI सुधार"
+      },
+      "policies": {
+        "privacy": "गोपनीयता नीति: हम आपका पाठ संग्रहीत नहीं करते।",
+        "terms": "उपयोग की शर्तें: व्यक्तिगत और शैक्षिक उपयोग के लिए निःशुल्क।",
+        "limitations": "सीमाएँ: व्यावसायिक उपयोग हेतु संपर्क करें।"
+      },
+      "contactText": "तकनीकी सहायता या सहयोग के लिए:",
+      "email": "ईमेल:",
+      "website": "वेबसाइट:",
+      "suggestionsText": "अपने सुझाव भेजें\nकोई भी त्रुटि रिपोर्ट करें",
+      "footer": "© 2026 Lyvorad. सर्वाधिकार सुरक्षित।"
+    }
+  },
+  "menu": {
+    "title": "Mayusc",
+    "close": "बंद करें",
+    "version": "v1.0.0",
+    "copyright": "Lyvorad ™ 2026"
+  },
+  "ui": {
+    "copySuccess": "पाठ कॉपी हो गया!",
+    "selectLanguage": "भाषा चुनें"
+  }
+}

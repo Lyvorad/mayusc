@@ -1,0 +1,80 @@
+{
+  "meta": { "language": "العربية", "direction": "rtl" },
+  "common": { "loading": "جارٍ التحميل...", "error": "خطأ", "success": "نجاح" },
+  "navigation": { "home": "الرئيسية", "textTools": "أدوات النص", "settings": "الإعدادات", "credits": "الاعتمادات" },
+  "pages": {
+    "home": {
+      "title": "الرئيسية",
+      "subtitle": "أداتك الشاملة لتحويل النصوص.",
+      "textToolsButton": "أدوات النص"
+    },
+    "textTools": {
+      "title": "أدوات النص",
+      "inputPlaceholder": "أدخل النص هنا...",
+      "outputPlaceholder": "ستظهر النتيجة هنا...",
+      "buttons": {
+        "lowercase": "أحرف صغيرة",
+        "uppercase": "أحرف كبيرة",
+        "aiCorrection": "تصحيح بالذكاء الاصطناعي",
+        "clear": "مسح",
+        "copy": "نسخ"
+      },
+      "messages": {
+        "correcting": "جارٍ التصحيح... قد يستغرق بعض الوقت",
+        "correctingError": "خطأ في تصحيح النص"
+      }
+    },
+    "settings": { "title": "الإعدادات" },
+    "credits": {
+      "title": "الاعتمادات",
+      "subtitle": "بواسطة Lyvorad",
+      "sections": {
+        "developers": "المطورون والمتعاونون",
+        "technologies": "التقنيات المستخدمة",
+        "acknowledgments": "شكر خاص",
+        "versionHistory": "سجل الإصدارات",
+        "policies": "السياسات والشروط",
+        "contact": "التواصل",
+        "suggestions": "الاقتراحات"
+      },
+      "team": {
+        "principal": "الفريق الرئيسي",
+        "lyvorad": "Lyvorad - التطوير والتصميم الرئيسي",
+        "bfs": "تطوير B/FS - أنظمة Gravity",
+        "uxui": "تصميم UX/UI - السرد البصري",
+        "qa": "اختبارات QA - هندسة الفوضى"
+      },
+      "technologies": {
+        "frontend": "الواجهة الأمامية: HTML5, CSS3, JavaScript",
+        "icons": "الأيقونات: Google Material Icons",
+        "hosting": "الاستضافة: Render",
+        "versionControl": "إدارة الإصدارات: Git و GitHub"
+      },
+      "acknowledgmentsText": "شكرًا لكل المستخدمين الذين اختبروا Mayusc وقدموا اقتراحاتهم.",
+      "versions": {
+        "current": "v1.0.0 (الحالي) - الإصدار الأولي",
+        "upcoming": "v1.1.0 (قريبًا) - أدوات أكثر وتحسينات ذكاء اصطناعي"
+      },
+      "policies": {
+        "privacy": "سياسة الخصوصية: لا نقوم بتخزين النص.",
+        "terms": "شروط الاستخدام: مجاني للاستخدام الشخصي والتعليمي.",
+        "limitations": "القيود: للاستخدام التجاري يرجى التواصل معنا."
+      },
+      "contactText": "للدعم الفني أو التعاون:",
+      "email": "البريد الإلكتروني:",
+      "website": "الموقع الإلكتروني:",
+      "suggestionsText": "أرسل اقتراحاتك\nأبلغ عن أي أخطاء",
+      "footer": "© 2026 Lyvorad. جميع الحقوق محفوظة."
+    }
+  },
+  "menu": {
+    "title": "Mayusc",
+    "close": "إغلاق",
+    "version": "v1.0.0",
+    "copyright": "Lyvorad ™ 2026"
+  },
+  "ui": {
+    "copySuccess": "تم نسخ النص!",
+    "selectLanguage": "اختر اللغة"
+  }
+}

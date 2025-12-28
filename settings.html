@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Configura el idioma y las preferencias de la herramienta Mayusc.">
+    <title data-i18n="pages.settings.title">Configuración de idioma | Mayusc</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+    <div id="menu-container"></div>
+
+    <main style="padding: 80px 20px;">
+        <h1 data-i18n="pages.settings.title">Configuración de la aplicación</h1>
+    </main>
+
+    <div class="settings-container">
+        <label for="language-selector" style="display: block; margin-bottom: 10px; color: #374151;">
+            <span data-i18n="ui.selectLanguage">Select Language</span>:
+        </label>
+        <select id="language-selector">
+            <!-- Las opciones se llenarán automáticamente con JavaScript -->
+        </select>
+    </div>
+
+    <script src="menu.js"></script>
+    <script src="language-manager.js"></script> <!-- AÑADIR ESTO -->
+    <script>
+        fetch("menu.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("menu-container").innerHTML = data;
+                // Inicializar el manager después de cargar el menú
+                if (window.languageManager && !window.languageManager.isInitialized) {
+                    window.languageManager.init();
+                }
+            });
+    </script>
+
+</body>
+
+</html>

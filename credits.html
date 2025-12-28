@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Créditos, políticas de uso, privacidad y contacto del proyecto Mayusc.">
+
+    <title>Créditos, políticas y contacto | Mayusc</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+    <div id="menu-container"></div>
+
+    <main style="padding: 80px 20px;">
+        <h1 data-i18n="pages.credits.title">Credits</h1>
+    </main>
+
+    <div class="credits-mayusc">
+        <div class="logo-circle">
+            <img src="images/logo_mayusc.png" alt="Mayusc Logo">
+        </div>
+
+        <h1 data-i18n="menu.title">Mayusc</h1>
+        <p class="subtitle" data-i18n="pages.credits.subtitle">by Lyvorad</p>
+
+        <section class="credits-section">
+            <h2 data-i18n="pages.credits.sections.developers">Desarrolladores y Colaboradores</h2>
+            <div class="credits-group">
+                <h3 data-i18n="pages.credits.team.principal">Equipo Principal</h3>
+                <ul>
+                    <li><strong data-i18n="pages.credits.team.lyvorad">Lyvorad - Desarrollo principal y diseño</strong></li>
+                    <li><strong data-i18n="pages.credits.team.bfs">Desarrollo B/FS - Sistem gravity</strong></li>
+                    <li><strong data-i18n="pages.credits.team.uxui">Diseño UX/UI - Visual Narrative</strong></li>
+                    <li><strong data-i18n="pages.credits.team.qa">Testing QA - Chaos Engineering</strong></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="credits-section">
+            <h2 data-i18n="pages.credits.sections.technologies">Tecnologías Utilizadas</h2>
+            <ul>
+                <li data-i18n="pages.credits.technologies.frontend"><strong>Frontend:</strong> HTML5, CSS3, JavaScript Vanilla</li>
+                <li data-i18n="pages.credits.technologies.icons"><strong>Iconos:</strong> Google Material Icons</li>
+                <li data-i18n="pages.credits.technologies.hosting"><strong>Hosting:</strong> Render</li>
+                <li data-i18n="pages.credits.technologies.versionControl"><strong>Control de Versiones:</strong> Git y GitHub</li>
+            </ul>
+        </section>
+
+        <section class="credits-section">
+            <h2 data-i18n="pages.credits.sections.acknowledgments">Agradecimientos Especiales</h2>
+            <p data-i18n="pages.credits.acknowledgmentsText">A todos los usuarios que han probado Mayusc y han enviado sus sugerencias para mejorar la herramienta. A la comunidad de desarrolladores web por los recursos compartidos y tutoriales.</p>
+        </section>
+
+        <section class="credits-section">
+            <h2 data-i18n="pages.credits.sections.versionHistory">Historial de Versiones</h2>
+            <ul>
+                <li data-i18n="pages.credits.versions.current"><strong>v1.0.0 (Actual)</strong> - Versión inicial con funciones básicas</li>
+                <li data-i18n="pages.credits.versions.upcoming"><strong>v1.1.0 (Próximamente)</strong> - Más herramientas de texto y mejoras en la IA</li>
+            </ul>
+        </section>
+
+        <section class="credits-section">
+            <h2 data-i18n="pages.credits.sections.policies">Políticas y Términos</h2>
+            <p data-i18n="pages.credits.policies.privacy"><strong>Política de Privacidad:</strong> No almacenamos tu texto. Todo el procesamiento se realiza en tu navegador.</p>
+            <p data-i18n="pages.credits.policies.terms"><strong>Términos de Uso:</strong> Mayusc es gratuito para uso personal y educativo.</p>
+            <p data-i18n="pages.credits.policies.limitations"><strong>Limitaciones:</strong> Para uso comercial, contacta con nuestro equipo.</p>
+        </section>
+
+        <section class="credits-section">
+            <h2 data-i18n="pages.credits.sections.contact">Contacto</h2>
+            <p data-i18n="pages.credits.contactText">Para soporte técnico, colaboraciones o preguntas:</p>
+            <p><span data-i18n="pages.credits.email">Email:</span> <a href="mailto:contacto@lyvorad.com">contacto@lyvorad.com</a></p>
+            <p><span data-i18n="pages.credits.website">Sitio Web:</span> <a href="http://www.lyvorad.com" target="_blank">www.lyvorad.com</a></p>
+        </section>
+
+        <section class="credits-section suggestions">
+            <p data-i18n-html="pages.credits.suggestionsText">Envía tus sugerencias de mejora<br>Reporta cualquier error que encuentres</p>
+        </section>
+
+        <footer class="credits-footer">
+            <p data-i18n="pages.credits.footer">© 2026 Lyvorad. Todos los derechos reservados. Mayusc es una herramienta desarrollada con pasión por la tecnología.</p>
+        </footer>
+    </div>
+
+    <script src="menu.js"></script>
+    <script src="language-manager.js"></script>
+    <script>
+        fetch("menu.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("menu-container").innerHTML = data;
+                // Inicializar el manager después de cargar el menú
+                if (window.languageManager && !window.languageManager.isInitialized) {
+                    window.languageManager.init();
+                }
+            });
+    </script>
+
+</body>
+</html>

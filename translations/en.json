@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "language": "English",
+    "direction": "ltr"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "navigation": {
+    "home": "Home",
+    "textTools": "Text Tools",
+    "settings": "Settings",
+    "credits": "Credits"
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "subtitle": "Your all-in-one tool for text transformation.",
+      "textToolsButton": "Text Tools"
+    },
+    "textTools": {
+      "title": "Text Tools",
+      "inputPlaceholder": "Enter your text here...",
+      "outputPlaceholder": "Your result will appear here...",
+      "buttons": {
+        "lowercase": "lowercase",
+        "uppercase": "UPPERCASE",
+        "aiCorrection": "AI Correction",
+        "clear": "Clear",
+        "copy": "Copy"
+      },
+      "messages": {
+        "correcting": "Correcting... this may take a moment",
+        "correctingError": "Error correcting text"
+      }
+    },
+    "settings": {
+      "title": "Settings"
+    },
+    "credits": {
+      "title": "Credits",
+      "subtitle": "by Lyvorad",
+      "sections": {
+        "developers": "Developers and Collaborators",
+        "technologies": "Technologies Used",
+        "acknowledgments": "Special Acknowledgments",
+        "versionHistory": "Version History",
+        "policies": "Policies and Terms",
+        "contact": "Contact",
+        "suggestions": "Suggestions"
+      },
+      "team": {
+        "principal": "Principal Team",
+        "lyvorad": "Lyvorad - Main development and design",
+        "bfs": "Development B/FS - Systems gravity",
+        "uxui": "UX/UI Design - Visual Narrative",
+        "qa": "Testing QA - Chaos Engineering"
+      },
+      "technologies": {
+        "frontend": "Frontend: HTML5, CSS3, Vanilla JavaScript",
+        "icons": "Icons: Google Material Icons",
+        "hosting": "Hosting: Render",
+        "versionControl": "Version Control: Git and GitHub"
+      },
+      "acknowledgmentsText": "To all users who have tested Mayusc and sent suggestions to improve the tool. To the web developer community for shared resources and tutorials.",
+      "versions": {
+        "current": "v1.0.0 (Current) - Initial version with basic functions",
+        "upcoming": "v1.1.0 (Coming soon) - More text tools and AI improvements"
+      },
+      "policies": {
+        "privacy": "Privacy Policy: We do not store your text. All processing is done in your browser.",
+        "terms": "Terms of Use: Mayusc is free for personal and educational use.",
+        "limitations": "Limitations: For commercial use, contact our team."
+      },
+      "contactText": "For technical support, collaborations, or questions:",
+      "email": "Email:",
+      "website": "Website:",
+      "suggestionsText": "Send your improvement suggestions\nReport any errors you find",
+      "footer": "© 2026 Lyvorad. All rights reserved. Mayusc is a tool developed with passion for technology."
+    }
+  },
+  "menu": {
+    "title": "Mayusc",
+    "close": "Close",
+    "version": "v1.0.0",
+    "copyright": "Lyvorad ™ 2026"
+  },
+  "ui": {
+    "copySuccess": "Text copied!",
+    "selectLanguage": "Select Language"
+  }
+}

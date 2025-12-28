@@ -1,0 +1,80 @@
+{
+  "meta": { "language": "اردو", "direction": "rtl" },
+  "common": { "loading": "لوڈ ہو رہا ہے...", "error": "خرابی", "success": "کامیابی" },
+  "navigation": { "home": "ہوم", "textTools": "متن کے اوزار", "settings": "ترتیبات", "credits": "کریڈٹس" },
+  "pages": {
+    "home": {
+      "title": "ہوم",
+      "subtitle": "متن کی تبدیلی کے لیے مکمل ٹول۔",
+      "textToolsButton": "متن کے اوزار"
+    },
+    "textTools": {
+      "title": "متن کے اوزار",
+      "inputPlaceholder": "یہاں متن درج کریں...",
+      "outputPlaceholder": "نتیجہ یہاں ظاہر ہوگا...",
+      "buttons": {
+        "lowercase": "چھوٹے حروف",
+        "uppercase": "بڑے حروف",
+        "aiCorrection": "AI اصلاح",
+        "clear": "صاف کریں",
+        "copy": "کاپی کریں"
+      },
+      "messages": {
+        "correcting": "درست کیا جا رہا ہے... براہ کرم انتظار کریں",
+        "correctingError": "متن درست کرنے میں خرابی"
+      }
+    },
+    "settings": { "title": "ترتیبات" },
+    "credits": {
+      "title": "کریڈٹس",
+      "subtitle": "از Lyvorad",
+      "sections": {
+        "developers": "ڈویلپرز اور معاونین",
+        "technologies": "استعمال شدہ ٹیکنالوجیز",
+        "acknowledgments": "خصوصی شکریہ",
+        "versionHistory": "ورژن کی تاریخ",
+        "policies": "پالیسیاں اور شرائط",
+        "contact": "رابطہ",
+        "suggestions": "تجاویز"
+      },
+      "team": {
+        "principal": "مرکزی ٹیم",
+        "lyvorad": "Lyvorad - مرکزی ڈویلپمنٹ اور ڈیزائن",
+        "bfs": "B/FS ڈویلپمنٹ - Gravity سسٹمز",
+        "uxui": "UX/UI ڈیزائن - بصری بیانیہ",
+        "qa": "QA ٹیسٹنگ - Chaos Engineering"
+      },
+      "technologies": {
+        "frontend": "فرنٹ اینڈ: HTML5, CSS3, Vanilla JavaScript",
+        "icons": "آئیکنز: Google Material Icons",
+        "hosting": "ہوسٹنگ: Render",
+        "versionControl": "ورژن کنٹرول: Git اور GitHub"
+      },
+      "acknowledgmentsText": "Mayusc آزمانے اور تجاویز دینے والے تمام صارفین کا شکریہ۔",
+      "versions": {
+        "current": "v1.0.0 (موجودہ) - ابتدائی ورژن",
+        "upcoming": "v1.1.0 (جلد) - مزید ٹولز اور AI بہتریاں"
+      },
+      "policies": {
+        "privacy": "رازداری پالیسی: ہم آپ کا متن محفوظ نہیں کرتے۔",
+        "terms": "استعمال کی شرائط: ذاتی اور تعلیمی استعمال کے لیے مفت۔",
+        "limitations": "حدود: تجارتی استعمال کے لیے رابطہ کریں۔"
+      },
+      "contactText": "تکنیکی مدد یا تعاون کے لیے:",
+      "email": "ای میل:",
+      "website": "ویب سائٹ:",
+      "suggestionsText": "اپنی تجاویز بھیجیں\nغلطیوں کی اطلاع دیں",
+      "footer": "© 2026 Lyvorad. جملہ حقوق محفوظ ہیں۔"
+    }
+  },
+  "menu": {
+    "title": "Mayusc",
+    "close": "بند کریں",
+    "version": "v1.0.0",
+    "copyright": "Lyvorad ™ 2026"
+  },
+  "ui": {
+    "copySuccess": "متن کاپی ہو گیا!",
+    "selectLanguage": "زبان منتخب کریں"
+  }
+}

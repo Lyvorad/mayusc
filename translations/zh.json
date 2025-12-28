@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "language": "中文",
+    "direction": "ltr"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功"
+  },
+  "navigation": {
+    "home": "首页",
+    "textTools": "文本工具",
+    "settings": "设置",
+    "credits": "致谢"
+  },
+  "pages": {
+    "home": {
+      "title": "首页",
+      "subtitle": "一站式文本转换工具。",
+      "textToolsButton": "文本工具"
+    },
+    "textTools": {
+      "title": "文本工具",
+      "inputPlaceholder": "在此输入文本...",
+      "outputPlaceholder": "结果将显示在这里...",
+      "buttons": {
+        "lowercase": "小写",
+        "uppercase": "大写",
+        "aiCorrection": "AI 校正",
+        "clear": "清除",
+        "copy": "复制"
+      },
+      "messages": {
+        "correcting": "正在校正…请稍候",
+        "correctingError": "文本校正出错"
+      }
+    },
+    "settings": {
+      "title": "设置"
+    },
+    "credits": {
+      "title": "致谢",
+      "subtitle": "由 Lyvorad 开发",
+      "sections": {
+        "developers": "开发者与合作者",
+        "technologies": "使用的技术",
+        "acknowledgments": "特别致谢",
+        "versionHistory": "版本历史",
+        "policies": "政策与条款",
+        "contact": "联系方式",
+        "suggestions": "建议"
+      },
+      "team": {
+        "principal": "核心团队",
+        "lyvorad": "Lyvorad - 主要开发与设计",
+        "bfs": "B/FS 开发 - Gravity 系统",
+        "uxui": "UX/UI 设计 - 视觉叙事",
+        "qa": "质量测试 - 混沌工程"
+      },
+      "technologies": {
+        "frontend": "前端：HTML5, CSS3, 原生 JavaScript",
+        "icons": "图标：Google Material Icons",
+        "hosting": "托管：Render",
+        "versionControl": "版本控制：Git 和 GitHub"
+      },
+      "acknowledgmentsText": "感谢所有测试 Mayusc 并提供改进建议的用户。",
+      "versions": {
+        "current": "v1.0.0（当前）- 基础功能初始版本",
+        "upcoming": "v1.1.0（即将推出）- 更多文本工具与 AI 改进"
+      },
+      "policies": {
+        "privacy": "隐私政策：我们不会存储您的文本。",
+        "terms": "使用条款：Mayusc 可免费用于个人和教育用途。",
+        "limitations": "限制：商业用途请联系团队。"
+      },
+      "contactText": "技术支持、合作或咨询：",
+      "email": "电子邮件：",
+      "website": "网站：",
+      "suggestionsText": "发送改进建议\n报告发现的任何错误",
+      "footer": "© 2026 Lyvorad. 保留所有权利。"
+    }
+  },
+  "menu": {
+    "title": "Mayusc",
+    "close": "关闭",
+    "version": "v1.0.0",
+    "copyright": "Lyvorad ™ 2026"
+  },
+  "ui": {
+    "copySuccess": "文本已复制！",
+    "selectLanguage": "选择语言"
+  }
+}

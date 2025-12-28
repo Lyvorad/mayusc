@@ -1,0 +1,80 @@
+{
+  "meta": { "language": "Русский", "direction": "ltr" },
+  "common": { "loading": "Загрузка...", "error": "Ошибка", "success": "Успех" },
+  "navigation": { "home": "Главная", "textTools": "Текстовые инструменты", "settings": "Настройки", "credits": "Авторы" },
+  "pages": {
+    "home": {
+      "title": "Главная",
+      "subtitle": "Универсальный инструмент для обработки текста.",
+      "textToolsButton": "Текстовые инструменты"
+    },
+    "textTools": {
+      "title": "Текстовые инструменты",
+      "inputPlaceholder": "Введите текст здесь...",
+      "outputPlaceholder": "Результат появится здесь...",
+      "buttons": {
+        "lowercase": "строчные",
+        "uppercase": "ПРОПИСНЫЕ",
+        "aiCorrection": "ИИ-коррекция",
+        "clear": "Очистить",
+        "copy": "Копировать"
+      },
+      "messages": {
+        "correcting": "Исправление... пожалуйста, подождите",
+        "correctingError": "Ошибка исправления текста"
+      }
+    },
+    "settings": { "title": "Настройки" },
+    "credits": {
+      "title": "Авторы",
+      "subtitle": "от Lyvorad",
+      "sections": {
+        "developers": "Разработчики и участники",
+        "technologies": "Используемые технологии",
+        "acknowledgments": "Благодарности",
+        "versionHistory": "История версий",
+        "policies": "Политики и условия",
+        "contact": "Контакты",
+        "suggestions": "Предложения"
+      },
+      "team": {
+        "principal": "Основная команда",
+        "lyvorad": "Lyvorad - Основная разработка и дизайн",
+        "bfs": "Разработка B/FS - Системы Gravity",
+        "uxui": "UX/UI дизайн - Визуальный нарратив",
+        "qa": "QA тестирование - Chaos Engineering"
+      },
+      "technologies": {
+        "frontend": "Фронтенд: HTML5, CSS3, Vanilla JavaScript",
+        "icons": "Иконки: Google Material Icons",
+        "hosting": "Хостинг: Render",
+        "versionControl": "Контроль версий: Git и GitHub"
+      },
+      "acknowledgmentsText": "Спасибо всем пользователям, тестировавшим Mayusc и присылавшим отзывы.",
+      "versions": {
+        "current": "v1.0.0 (Текущая) - Начальная версия",
+        "upcoming": "v1.1.0 (Скоро) - Больше инструментов и улучшения ИИ"
+      },
+      "policies": {
+        "privacy": "Политика конфиденциальности: Мы не храним ваш текст.",
+        "terms": "Условия использования: Бесплатно для личного и учебного использования.",
+        "limitations": "Ограничения: Для коммерческого использования свяжитесь с нами."
+      },
+      "contactText": "Техническая поддержка или сотрудничество:",
+      "email": "Email:",
+      "website": "Сайт:",
+      "suggestionsText": "Отправьте предложения\nСообщите об ошибках",
+      "footer": "© 2026 Lyvorad. Все права защищены."
+    }
+  },
+  "menu": {
+    "title": "Mayusc",
+    "close": "Закрыть",
+    "version": "v1.0.0",
+    "copyright": "Lyvorad ™ 2026"
+  },
+  "ui": {
+    "copySuccess": "Текст скопирован!",
+    "selectLanguage": "Выбрать язык"
+  }
+}

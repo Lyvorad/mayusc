@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Herramientas online para convertir texto a mayúsculas, minúsculas y corregir textos con inteligencia artificial.">
+
+    <title data-i18n="pages.textTools.title">Herramientas de texto con IA | Mayusc</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+    <div id="menu-container"></div>
+
+    <main style="padding: 80px 20px;">
+        <h1 data-i18n="pages.textTools.title">Herramientas de texto con inteligencia artificial</h1>
+    </main>
+
+    <div class="button-text-tools">
+        <button id="lowercaseBtn" data-i18n="pages.textTools.buttons.lowercase">lowercase</button>
+        <button id="uppercaseBtn" data-i18n="pages.textTools.buttons.uppercase">UPPERCASE</button>
+        <button id="corretionBtn" data-i18n="pages.textTools.buttons.aiCorrection">AI Correction</button>
+    </div>
+
+    <div class="textareas-text-tools">
+        <textarea id="inputText" data-i18n="pages.textTools.inputPlaceholder" 
+                  data-i18n-attr="placeholder" 
+                  placeholder="Enter your text here..."></textarea>
+        
+        <textarea id="outputText" readonly 
+                  data-i18n="pages.textTools.outputPlaceholder"
+                  data-i18n-attr="placeholder"
+                  placeholder="Your result will appear here..."></textarea>
+    </div>
+
+    <div class="end-button-text-tools hidden" id="endButtons">
+        <button id="clearBtn" data-i18n="pages.textTools.buttons.clear">Clear</button>
+        <button id="copyBtn" data-i18n="pages.textTools.buttons.copy">Copy</button>
+    </div>
+
+    <script src="menu.js"></script>
+    <script src="language-manager.js"></script> <!-- AÑADIR ESTO -->
+    <script>
+        fetch("menu.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("menu-container").innerHTML = data;
+                // Inicializar el manager después de cargar el menú
+                if (window.languageManager && !window.languageManager.isInitialized) {
+                    window.languageManager.init();
+                }
+            });
+    </script>
+    <script src="text_tools.js"></script>
+
+</body>
+
+</html>
