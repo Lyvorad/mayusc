@@ -12,7 +12,11 @@
     "home": "Inicio",
     "textTools": "Text Tools",
     "settings": "Configuración",
-    "credits": "Créditos"
+    "credits": "Créditos",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "contact": "Contacto"
   },
   "pages": {
     "home": {
@@ -79,6 +83,23 @@
       "website": "Sitio Web:",
       "suggestionsText": "Envía tus sugerencias de mejora\nReporta cualquier error que encuentres",
       "footer": "© 2026 Lyvorad. Todos los derechos reservados. Mayusc es una herramienta desarrollada con pasión por la tecnología."
+    },
+    "privacy": {
+      "title": "Política de Privacidad",
+      "content": "<p><strong>Última actualización: 29 de Diciembre de 2025</strong></p><p>Bienvenido a Mayusc.lat. Nos tomamos muy en serio su privacidad. Esta Política de Privacidad describe cómo recopilamos, usamos y protegemos su información cuando utiliza nuestro sitio web.</p><h3>1. Información que recopilamos</h3><p>Actualmente, Mayusc.lat <strong>no recopila datos personales identificables</strong> de sus usuarios de forma directa. No requerimos registro ni inicio de sesión.</p><h3>2. Google AdSense y Cookies</h3><p>Utilizamos <strong>Google AdSense</strong> para mostrar anuncios en nuestro sitio web. Google, como proveedor externo, utiliza cookies para servir anuncios en su sitio.</p><ul><li>El uso de la cookie de publicidad de Google permite a este y a sus socios mostrar anuncios a los usuarios basándose en sus visitas a sus sitios y/u otros sitios de Internet.</li><li>Los usuarios pueden inhabilitar la publicidad personalizada visitando la <a href='https://www.google.com/settings/ads' target='_blank'>Configuración de anuncios</a>.</li></ul><h3>3. Archivos de registro (Logs)</h3><p>Como la mayoría de los sitios web, recopilamos cierta información automáticamente y la almacenamos en archivos de registro. Esta información puede incluir direcciones de protocolo de Internet (IP), tipo de navegador, proveedor de servicios de Internet (ISP), páginas de referencia/salida, sistema operativo, sello de fecha/hora y datos de clics. Estos datos se utilizan para analizar tendencias y administrar el sitio.</p><h3>4. Cambios en esta política</h3><p>Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le recomendamos que revise esta página periódicamente para ver si hay cambios.</p>"
+    },
+    "terms": {
+      "title": "Términos y Condiciones",
+      "content": "<p><strong>Última actualización: 29 de Diciembre de 2025</strong></p><p>Al acceder y utilizar Mayusc.lat, usted acepta cumplir con los siguientes términos y condiciones de uso.</p><h3>1. Uso del sitio</h3><p>El contenido de este sitio web es para su información general y uso personal. Está sujeto a cambios sin previo aviso.</p><h3>2. Propiedad Intelectual</h3><p>Este sitio web contiene material que es propiedad nuestra o tiene licencia para nosotros. Este material incluye, pero no se limita a, el diseño, la disposición, la apariencia y los gráficos.</p><h3>3. Limitación de responsabilidad</h3><p>El uso de cualquier información o material en este sitio web es bajo su propio riesgo, por lo cual no seremos responsables. Será su propia responsabilidad asegurarse de que cualquier producto, servicio o información disponible a través de este sitio web cumpla con sus requisitos específicos.</p><h3>4. Modificaciones</h3><p>Lyvorad se reserva el derecho de revisar estos términos de servicio para su sitio web en cualquier momento sin previo aviso.</p>"
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "content": "<p>Una cookie es un pequeño archivo de texto que un sitio web guarda en su computadora o dispositivo móvil cuando visita el sitio.</p><h3>¿Cómo usamos las cookies?</h3><p>Utilizamos cookies para:</p><ul><li>Habilitar ciertas funciones del sitio web.</li><li>Proporcionar análisis.</li><li>Almacenar sus preferencias.</li><li>Permitir la entrega de anuncios, incluida la publicidad comportamental.</li></ul><h3>Cookies de terceros</h3><p>Además de nuestras propias cookies, también podemos utilizar varias cookies de terceros para informar estadísticas de uso del sitio, entregar anuncios en y a través del sitio, etc. Específicamente, utilizamos <strong>Google AdSense</strong>, que utiliza cookies para mejorar la publicidad.</p><h3>Control de cookies</h3><p>Puede controlar y/o eliminar las cookies como desee. Puede eliminar todas las cookies que ya están en su computadora y puede configurar la mayoría de los navegadores para que eviten que se coloquen.</p>"
+    },
+    "contact": {
+      "title": "Contacto",
+      "intro": "Estamos aquí para ayudarte. Si tienes alguna pregunta sobre nuestras herramientas, políticas o quieres colaborar con nosotros, contáctanos.",
+      "response_time": "Intentamos responder a todas las consultas en un plazo de 24-48 horas hábiles."
     }
   },
   "menu": {

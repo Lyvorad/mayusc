@@ -107,6 +107,7 @@ class LanguageManager {
 
     applyTranslations() {
         // Actualizar todos los elementos con data-i18n
+        // 1. Process elements with data-i18n (text content and attributes)
         document.querySelectorAll('[data-i18n]').forEach(element => {
             const key = element.getAttribute('data-i18n');
             const translation = this.getTranslation(key);
@@ -117,11 +118,19 @@ class LanguageManager {
                 } else if (element.hasAttribute('data-i18n-attr')) {
                     const attr = element.getAttribute('data-i18n-attr');
                     element.setAttribute(attr, translation);
-                } else if (element.hasAttribute('data-i18n-html')) {
-                    element.innerHTML = translation.replace(/\n/g, '<br>');
                 } else {
                     element.textContent = translation;
                 }
+            }
+        });
+
+        // 2. Process elements with data-i18n-html (HTML content)
+        document.querySelectorAll('[data-i18n-html]').forEach(element => {
+            const key = element.getAttribute('data-i18n-html');
+            const translation = this.getTranslation(key);
+
+            if (translation) {
+                element.innerHTML = translation.replace(/\n/g, '<br>');
             }
         });
 

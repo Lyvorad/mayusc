@@ -12,7 +12,11 @@
     "home": "首页",
     "textTools": "文本工具",
     "settings": "设置",
-    "credits": "致谢"
+    "credits": "致谢",
+    "privacy": "隐私",
+    "terms": "条款",
+    "cookies": "Cookies",
+    "contact": "联系"
   },
   "pages": {
     "home": {
@@ -79,6 +83,23 @@
       "website": "网站：",
       "suggestionsText": "发送改进建议\n报告发现的任何错误",
       "footer": "© 2026 Lyvorad. 保留所有权利。"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "content": "<p><strong>最后更新：2025年12月29日</strong></p><p>欢迎来到 Mayusc.lat。我们非常重视您的隐私。</p><h3>1. 我们收集的信息</h3><p>目前的 Mayusc.lat <strong>不直接收集个人身份数据</strong>。</p><h3>2. Google AdSense 和 Cookie</h3><p>我们使用 <strong>Google AdSense</strong> 展示广告。Google 使用 Cookie 根据您的访问记录展示广告。</p><ul><li>用户可以在 <a href='https://www.google.com/settings/ads' target='_blank'>广告设置</a> 中停用个性化广告。</li></ul>"
+    },
+    "terms": {
+      "title": "条款和条件",
+      "content": "<p><strong>最后更新：2025年12月29日</strong></p><p>访问 Mayusc.lat 即表示您同意遵守以下条款。</p><h3>1. 网站使用</h3><p>内容仅供一般信息和个人使用。</p>"
+    },
+    "cookies": {
+      "title": "Cookie 政策",
+      "content": "<p>Cookie 是保存在您设备上的小型文本文件。</p><h3>我们如何使用 Cookie？</h3><p>我们使用 Cookie 用于：</p><ul><li>启用功能。</li><li>提供分析。</li><li>投放广告 (Google AdSense)。</li></ul>"
+    },
+    "contact": {
+      "title": "联系我们",
+      "intro": "我们随时为您提供帮助。如有任何问题，请联系我们。",
+      "response_time": "我们通常在 24-48 工作小时内回复。"
     }
   },
   "menu": {

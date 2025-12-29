@@ -12,7 +12,11 @@
     "home": "Home",
     "textTools": "Text Tools",
     "settings": "Settings",
-    "credits": "Credits"
+    "credits": "Credits",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "contact": "Contact"
   },
   "pages": {
     "home": {
@@ -79,6 +83,23 @@
       "website": "Website:",
       "suggestionsText": "Send your improvement suggestions\nReport any errors you find",
       "footer": "© 2026 Lyvorad. All rights reserved. Mayusc is a tool developed with passion for technology."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "content": "<p><strong>Last updated: December 29, 2025</strong></p><p>Welcome to Mayusc.lat. We take your privacy very seriously. This Privacy Policy describes how we collect, use, and protect your information when you use our website.</p><h3>1. Information We Collect</h3><p>Currently, Mayusc.lat <strong>does not directly collect personally identifiable data</strong> from its users. We do not require registration or login.</p><h3>2. Google AdSense and Cookies</h3><p>We use <strong>Google AdSense</strong> to display ads on our website. Google, as a third-party vendor, uses cookies to serve ads on your site.</p><ul><li>The use of the Google advertising cookie enables it and its partners to serve ads to users based on their visits to your sites and/or other sites on the Internet.</li><li>Users may opt out of personalized advertising by visiting <a href='https://www.google.com/settings/ads' target='_blank'>Ads Settings</a>.</li></ul><h3>3. Log Files</h3><p>Like most websites, we automatically collect certain information and store it in log files. This information may include Internet Protocol (IP) addresses, browser type, Internet Service Provider (ISP), referring/exit pages, operating system, date/time stamp, and clickstream data. This data is used to analyze trends and administer the site.</p><h3>4. Changes to This Policy</h3><p>We may update our Privacy Policy from time to time. We encourage you to review this page periodically for any changes.</p>"
+    },
+    "terms": {
+      "title": "Terms and Conditions",
+      "content": "<p><strong>Last updated: December 29, 2025</strong></p><p>By accessing and using Mayusc.lat, you agree to comply with the following terms and conditions of use.</p><h3>1. Use of the Site</h3><p>The content of this website is for your general information and personal use only. It is subject to change without notice.</p><h3>2. Intellectual Property</h3><p>This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance, and graphics.</p><h3>3. Limitation of Liability</h3><p>Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services, or information available through this website meet your specific requirements.</p><h3>4. Modifications</h3><p>Lyvorad reserves the right to revise these terms of service for its website at any time without notice.</p>"
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "content": "<p>A cookie is a small text file that a website saves on your computer or mobile device when you visit the site.</p><h3>How do we use cookies?</h3><p>We use cookies to:</p><ul><li>Enable certain functions of the website.</li><li>Provide analytics.</li><li>Store your preferences.</li><li>Enable advertisements delivery, including behavioral advertising.</li></ul><h3>Third-party Cookies</h3><p>In addition to our own cookies, we may also use various third-parties cookies to report usage statistics of the website, deliver advertisements on and through the website, and so on. Specifically, we use <strong>Google AdSense</strong>, which uses cookies to improve advertising.</p><h3>Controlling Cookies</h3><p>You can control and/or delete cookies as you wish. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed.</p>"
+    },
+    "contact": {
+      "title": "Contact",
+      "intro": "We are here to help. If you have any questions about our tools, policies, or want to collaborate with us, please contact us.",
+      "response_time": "We aim to respond to all inquiries within 24-48 business hours."
     }
   },
   "menu": {

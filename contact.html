@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta con el equipo de Mayusc.">
+
+    <title data-i18n="pages.contact.title">Contacto | Mayusc</title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="menu.css">
+    <style>
+        .contact-container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 2rem;
+        }
+
+        .contact-email {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            margin: 1.5rem 0;
+            font-weight: bold;
+        }
+
+        .contact-email a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-email a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="menu-container"></div>
+
+    <main style="padding: 80px 20px;">
+        <div class="contact-container">
+            <h1 data-i18n="pages.contact.title">Contacto</h1>
+            <div class="contact-card">
+                <p data-i18n="pages.contact.intro">Si tienes alguna pregunta, sugerencia o propuesta comercial, no dudes
+                    en escribirnos.</p>
+                <div class="contact-email">
+                    ✉️ <a href="mailto:contacto@mayusc.lat">contacto@mayusc.lat</a>
+                </div>
+                <p data-i18n="pages.contact.response_time">Solemos responder en menos de 24 horas.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="menu.js"></script>
+    <script src="language-manager.js"></script>
+    <script>
+        fetch("menu.html")
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("menu-container").innerHTML = data;
+                if (window.languageManager && !window.languageManager.isInitialized) {
+                    window.languageManager.init();
+                }
+            });
+    </script>
+
+</body>
+
+</html>

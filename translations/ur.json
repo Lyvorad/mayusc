@@ -1,7 +1,23 @@
 {
-  "meta": { "language": "اردو", "direction": "rtl" },
-  "common": { "loading": "لوڈ ہو رہا ہے...", "error": "خرابی", "success": "کامیابی" },
-  "navigation": { "home": "ہوم", "textTools": "متن کے اوزار", "settings": "ترتیبات", "credits": "کریڈٹس" },
+  "meta": {
+    "language": "اردو",
+    "direction": "rtl"
+  },
+  "common": {
+    "loading": "لوڈ ہو رہا ہے...",
+    "error": "خرابی",
+    "success": "کامیابی"
+  },
+  "navigation": {
+    "home": "ہوم",
+    "textTools": "متن کے اوزار",
+    "settings": "ترتیبات",
+    "credits": "کریڈٹس",
+    "privacy": "رازداری",
+    "terms": "شرائط",
+    "cookies": "کوکیز",
+    "contact": "رابطہ"
+  },
   "pages": {
     "home": {
       "title": "ہوم",
@@ -24,7 +40,9 @@
         "correctingError": "متن درست کرنے میں خرابی"
       }
     },
-    "settings": { "title": "ترتیبات" },
+    "settings": {
+      "title": "ترتیبات"
+    },
     "credits": {
       "title": "کریڈٹس",
       "subtitle": "از Lyvorad",
@@ -65,6 +83,23 @@
       "website": "ویب سائٹ:",
       "suggestionsText": "اپنی تجاویز بھیجیں\nغلطیوں کی اطلاع دیں",
       "footer": "© 2026 Lyvorad. جملہ حقوق محفوظ ہیں۔"
+    },
+    "privacy": {
+      "title": "رازداری کی پالیسی",
+      "content": "<p><strong>آخری تازہ کاری: 29 دسمبر 2025</strong></p><p>Mayusc.lat میں خوش آمدید۔ ہم آپ کی رازداری کو سنجیدگی سے لیتے ہیں۔</p><h3>1. معلومات جو ہم جمع کرتے ہیں</h3><p>فی الحال، Mayusc.lat براہ راست <strong>ذاتی طور پر قابل شناخت ڈیٹا جمع نہیں کرتا</strong>۔</p><h3>2. Google AdSense اور کوکیز</h3><p>ہم اشتہارات دکھانے کے لیے <strong>Google AdSense</strong> کا استعمال کرتے ہیں۔</p><ul><li>صارفین <a href='https://www.google.com/settings/ads' target='_blank'>اشتہارات کی ترتیبات</a> میں جا کر ذاتی نوعیت کے اشتہارات سے آپٹ آؤٹ کر سکتے ہیں۔</li></ul>"
+    },
+    "terms": {
+      "title": "شرائط و ضوابط",
+      "content": "<p><strong>آخری تازہ کاری: 29 دسمبر 2025</strong></p><p>Mayusc.lat استعمال کر کے، آپ درج ذیل شرائط کی تعمیل کرنے سے اتفاق کرتے ہیں۔</p><h3>1. سائٹ کا استعمال</h3><p>مواد صرف آپ کی عام معلومات کے لیے ہے۔</p>"
+    },
+    "cookies": {
+      "title": "کوکی پالیسی",
+      "content": "<p>کوکی ایک چھوٹی ٹیکسٹ فائل ہے جو آپ کے آلے پر محفوظ ہوتی ہے۔</p><h3>ہم کوکیز کا استعمال کیسے کرتے ہیں؟</h3><p>ہم انہیں استعمال کرتے ہیں:</p><ul><li>فعالیت۔</li><li>تجزیات۔</li><li>اشتہارات (Google AdSense)۔</li></ul>"
+    },
+    "contact": {
+      "title": "رابطہ",
+      "intro": "ہم مدد کے لیے یہاں ہیں۔ کسی بھی سوال کے لیے ہم سے رابطہ کریں۔",
+      "response_time": "ہم عام طور پر 24-48 کام کے گھنٹوں میں جواب دیتے ہیں۔"
     }
   },
   "menu": {

@@ -1,7 +1,23 @@
 {
-  "meta": { "language": "Português", "direction": "ltr" },
-  "common": { "loading": "Carregando...", "error": "Erro", "success": "Sucesso" },
-  "navigation": { "home": "Início", "textTools": "Ferramentas de Texto", "settings": "Configurações", "credits": "Créditos" },
+  "meta": {
+    "language": "Português",
+    "direction": "ltr"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso"
+  },
+  "navigation": {
+    "home": "Início",
+    "textTools": "Ferramentas de Texto",
+    "settings": "Configurações",
+    "credits": "Créditos",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "cookies": "Cookies",
+    "contact": "Contato"
+  },
   "pages": {
     "home": {
       "title": "Início",
@@ -24,7 +40,9 @@
         "correctingError": "Erro ao corrigir o texto"
       }
     },
-    "settings": { "title": "Configurações" },
+    "settings": {
+      "title": "Configurações"
+    },
     "credits": {
       "title": "Créditos",
       "subtitle": "por Lyvorad",
@@ -65,6 +83,23 @@
       "website": "Site:",
       "suggestionsText": "Envie suas sugestões\nReporte erros encontrados",
       "footer": "© 2026 Lyvorad. Todos os direitos reservados."
+    },
+    "privacy": {
+      "title": "Política de Privacidade",
+      "content": "<p><strong>Última atualização: 29 de Dezembro de 2025</strong></p><p>Bem-vindo ao Mayusc.lat. Levamos sua privacidade muito a sério.</p><h3>1. Informações que coletamos</h3><p>Atualmente, o Mayusc.lat <strong>não coleta dados pessoais identificáveis</strong> diretamente.</p><h3>2. Google AdSense e Cookies</h3><p>Usamos o <strong>Google AdSense</strong> para exibir anúncios. O Google usa cookies para exibir anúncios com base em suas visitas.</p><ul><li>Os usuários podem desativar a publicidade personalizada nas <a href='https://www.google.com/settings/ads' target='_blank'>Configurações de anúncios</a>.</li></ul>"
+    },
+    "terms": {
+      "title": "Termos e Condições",
+      "content": "<p><strong>Última atualização: 29 de Dezembro de 2025</strong></p><p>Ao acessar o Mayusc.lat, você concorda em cumprir os seguintes termos.</p><h3>1. Uso do site</h3><p>O conteúdo é apenas para sua informação geral e uso pessoal.</p>"
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "content": "<p>Um cookie é um pequeno arquivo de texto salvo no seu dispositivo.</p><h3>Como usamos os cookies?</h3><p>Usamos cookies para:</p><ul><li>Habilitar funcionalidades.</li><li>Fornecer análises.</li><li>Exibir anúncios (Google AdSense).</li></ul>"
+    },
+    "contact": {
+      "title": "Contato",
+      "intro": "Estamos aqui para ajudar. Entre em contato se tiver dúvidas.",
+      "response_time": "Tentamos responder dentro de 24-48 horas úteis."
     }
   },
   "menu": {
