@@ -60,6 +60,8 @@ body {
     margin-bottom: 5px;
 }
 
+
+
 .menu-divider {
     border: 0;
     border-top: 1px solid #e5e7eb;
@@ -449,6 +451,71 @@ html[dir="rtl"] .menu-footer {
     text-align: right;
 }
 
-html[dir="rtl"] .copirigth {
+/* Home Info Section */
+.home-info-container {
+    max-width: 900px;
+    margin: 60px auto 20px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.home-info-container h2 {
+    color: #1f2937;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.home-description {
+    color: #4b5563;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feature-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.feature-card .material-icons {
+    font-size: 40px;
+    color: #06b6d4;
+    margin-bottom: 15px;
+}
+
+.feature-card h3 {
+    color: #1f2937;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #6b7280;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+/* RTL Support for Home Info */
+html[dir="rtl"] .home-info-container {
+    text-align: right;
+}
+
+html[dir="rtl"] .feature-card {
     text-align: right;
 }

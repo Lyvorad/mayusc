@@ -22,7 +22,25 @@
     "home": {
       "title": "Startseite",
       "subtitle": "Ihr All-in-One-Tool zur Textumwandlung.",
-      "textToolsButton": "Textwerkzeuge"
+      "textToolsButton": "Textwerkzeuge",
+      "info": {
+        "title": "Warum Mayusc verwenden?",
+        "description": "Mayusc ist Ihre definitive Lösung für Textverarbeitung und Formatierung. Entwickelt für Studenten, Schriftsteller und Profis, vereinfacht unser Tool Bearbeitungsaufgaben mit Geschwindigkeit und Präzision. Verwandeln Sie Ihren Arbeitsablauf mit unseren erweiterten Funktionen völlig kostenlos.",
+        "features": {
+          "case": {
+            "title": "Intelligente Transformation",
+            "desc": "Konvertieren Sie sofort zwischen Großschreibung, Kleinschreibung und weiteren Formatierungsstilen."
+          },
+          "ai": {
+            "title": "KI-gestützt",
+            "desc": "Nutzen Sie künstliche Intelligenz, um Grammatik zu korrigieren und den Stil automatisch zu verbessern."
+          },
+          "privacy": {
+            "title": "Datenschutz zuerst",
+            "desc": "Ihr Text wird lokal verarbeitet. Wir garantieren 100% Datenschutz und Sicherheit."
+          }
+        }
+      }
     },
     "textTools": {
       "title": "Textwerkzeuge",

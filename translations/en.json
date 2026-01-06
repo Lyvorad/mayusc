@@ -22,7 +22,25 @@
     "home": {
       "title": "Home",
       "subtitle": "Your all-in-one tool for text transformation.",
-      "textToolsButton": "Text Tools"
+      "textToolsButton": "Text Tools",
+      "info": {
+        "title": "Why use Mayusc?",
+        "description": "Mayusc is your definitive solution for text processing and formatting. Designed for students, writers, and professionals, our tool simplifies editing tasks with speed and precision. Transform your workflow with our advanced features completely free of charge.",
+        "features": {
+          "case": {
+            "title": "Smart Transformation",
+            "desc": "Instantly convert between uppercase, lowercase, and more formatting styles."
+          },
+          "ai": {
+            "title": "AI Powered",
+            "desc": "Leverage artificial intelligence to correct grammar and enhance style automatically."
+          },
+          "privacy": {
+            "title": "Privacy First",
+            "desc": "Your text is processed locally. We guarantee 100% privacy and security."
+          }
+        }
+      }
     },
     "textTools": {
       "title": "Text Tools",

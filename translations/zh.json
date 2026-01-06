@@ -22,7 +22,25 @@
     "home": {
       "title": "首页",
       "subtitle": "一站式文本转换工具。",
-      "textToolsButton": "文本工具"
+      "textToolsButton": "文本工具",
+      "info": {
+        "title": "为什么使用 Mayusc？",
+        "description": "Mayusc 是您进行文本处理和格式化的终极解决方案。专为学生、作家和专业人士设计，我们的工具以速度和精确度简化了编辑任务。利用我们可以完全免费的高级功能改变您的工作流程。",
+        "features": {
+          "case": {
+            "title": "智能转换",
+            "desc": "并在大写、小写和更多格式样式之间即时转换。"
+          },
+          "ai": {
+            "title": "AI 驱动",
+            "desc": "利用人工智能自动纠正语法并增强风格。"
+          },
+          "privacy": {
+            "title": "隐私至上",
+            "desc": "您的文本在本地处理。我们保证 100% 的隐私和安全。"
+          }
+        }
+      }
     },
     "textTools": {
       "title": "文本工具",

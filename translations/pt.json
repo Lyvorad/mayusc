@@ -22,7 +22,25 @@
     "home": {
       "title": "Início",
       "subtitle": "Sua ferramenta completa para transformação de textos.",
-      "textToolsButton": "Ferramentas de Texto"
+      "textToolsButton": "Ferramentas de Texto",
+      "info": {
+        "title": "Por que usar o Mayusc?",
+        "description": "O Mayusc é sua solução definitiva para processamento e formatação de textos. Projetado para estudantes, escritores e profissionais, nossa ferramenta simplifica tarefas de edição com rapidez e precisão. Transforme seu fluxo de trabalho com nossos recursos avançados gratuitamente.",
+        "features": {
+          "case": {
+            "title": "Transformação Inteligente",
+            "desc": "Converta instantaneamente entre maiúsculas, minúsculas e mais estilos de formatação."
+          },
+          "ai": {
+            "title": "Alimentado por IA",
+            "desc": "Aproveite a inteligência artificial para corrigir a gramática e aprimorar o estilo automaticamente."
+          },
+          "privacy": {
+            "title": "Privacidade em Primeiro Lugar",
+            "desc": "Seu texto é processado localmente. Garantimos 100% de privacidade e segurança."
+          }
+        }
+      }
     },
     "textTools": {
       "title": "Ferramentas de Texto",
