@@ -20,27 +20,68 @@
   },
   "pages": {
     "home": {
-      "title": "Inicio",
-      "subtitle": "Tu herramienta todo en uno para transformación de textos.",
-      "textToolsButton": "Text Tools",
-      "info": {
-        "title": "¿Por qué usar Mayusc?",
-        "description": "Mayusc es tu solución definitiva para el procesamiento y formato de textos. Diseñado para estudiantes, escritores y profesionales, nuestra herramienta simplifica las tareas de edición con rapidez y precisión. Transforma tu flujo de trabajo con nuestras funciones avanzadas completamente gratis.",
+      "title": "Mayusc: herramienta online para corregir y transformar textos fácilmente",
+      "textToolsButton": "Ir a Text Tools",
+      "intro": "Mayusc es una herramienta web gratuita diseñada para ayudarte a transformar, corregir y mejorar textos de forma rápida y sencilla. Está pensada para personas que trabajan a diario con texto y necesitan resultados inmediatos sin complicaciones.",
+      "intro2": "A diferencia de otras plataformas, Mayusc permite convertir texto a mayúsculas o minúsculas, mejorar la redacción y corregir errores comunes sin necesidad de registro. Todo el proceso se realiza directamente en el navegador, priorizando la privacidad y la comodidad del usuario.",
+      "intro3": "Esta plataforma es ideal tanto para usos puntuales como para tareas repetitivas de edición, ofreciendo una experiencia clara, directa y enfocada en la productividad.",
+      "whatIsItFor": {
+        "title": "¿Para qué sirve Mayusc?",
+        "intro": "Mayusc sirve para simplificar tareas relacionadas con la edición de texto. Con esta herramienta puedes:",
         "features": {
-          "case": {
-            "title": "Transformación Inteligente",
-            "desc": "Convierte instantáneamente entre mayúsculas, minúsculas y más estilos de formato."
-          },
-          "ai": {
-            "title": "Potenciado por IA",
-            "desc": "Aprovecha la inteligencia artificial para corregir gramática y mejorar el estilo automáticamente."
-          },
-          "privacy": {
-            "title": "Privacidad Primero",
-            "desc": "Tu texto se procesa localmente. Garantizamos 100% privacidad y seguridad."
-          }
+          "convert": "Convertir texto a mayúsculas o minúsculas en segundos",
+          "correct": "Corregir errores gramaticales y ortográficos",
+          "improve": "Mejorar la claridad y el estilo de un texto",
+          "prepare": "Preparar contenido para trabajos académicos, redes sociales o documentos profesionales"
+        },
+        "goal": "Su objetivo principal es ahorrar tiempo y reducir errores en textos de cualquier longitud."
+      },
+      "whoCanUse": {
+        "title": "¿Quién puede usar Mayusc?",
+        "intro": "Mayusc está pensada para distintos tipos de usuarios, entre ellos:",
+        "users": {
+          "students": "Estudiantes, que necesitan corregir trabajos y tareas",
+          "creators": "Creadores de contenido, que buscan mejorar la calidad de sus textos",
+          "professionals": "Profesionales, que redactan correos, informes o documentos",
+          "social": "Personas que trabajan con redes sociales, donde el formato del texto es clave"
+        },
+        "noTech": "No es necesario tener conocimientos técnicos para utilizar la plataforma."
+      },
+      "howItWorks": {
+        "title": "Cómo funciona Mayusc",
+        "description": "El funcionamiento de Mayusc es muy sencillo. Solo necesitas pegar tu texto en el área correspondiente, seleccionar la acción que deseas realizar y obtener el resultado al instante.",
+        "simple": "No hay procesos complejos ni pasos innecesarios. La herramienta está diseñada para que cualquier persona pueda usarla desde el primer momento, sin curva de aprendizaje."
+      },
+      "advantages": {
+        "title": "Ventajas de usar Mayusc frente a otras herramientas",
+        "description": "Una de las principales ventajas de Mayusc es su enfoque en la simplicidad y la privacidad. A diferencia de muchas herramientas similares, no requiere crear una cuenta ni compartir información personal.",
+        "updates": "Además, la plataforma se actualiza constantemente para mejorar la precisión de las correcciones y ofrecer una mejor experiencia de usuario. Todo esto la convierte en una opción confiable para el trabajo diario con textos."
+      },
+      "privacy": {
+        "title": "Privacidad y seguridad",
+        "description": "La privacidad es una prioridad en Mayusc. Los textos ingresados por el usuario se procesan localmente y no se almacenan en servidores externos. Esto garantiza que la información permanezca segura y confidencial en todo momento.",
+        "important": "Esta característica es especialmente importante para quienes trabajan con textos sensibles o información privada."
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "q1": {
+          "question": "¿Mayusc es gratis?",
+          "answer": "Sí, todas las funciones principales de Mayusc son completamente gratuitas."
+        },
+        "q2": {
+          "question": "¿Necesito registrarme para usar la herramienta?",
+          "answer": "No. Puedes utilizar Mayusc sin crear una cuenta."
+        },
+        "q3": {
+          "question": "¿Funciona en móviles y tablets?",
+          "answer": "Sí, la herramienta es compatible con dispositivos móviles y se adapta a diferentes tamaños de pantalla."
+        },
+        "q4": {
+          "question": "¿Guarda mis textos?",
+          "answer": "No. Mayusc no almacena ni comparte los textos que introduces."
         }
-      }
+      },
+      "closing": "Mayusc es una solución práctica para cualquier persona que necesite trabajar con textos de manera rápida, segura y eficiente. Si buscas una herramienta simple, gratuita y enfocada en la productividad, Mayusc es una excelente opción."
     },
     "textTools": {
       "title": "Text Tools",
@@ -56,6 +97,10 @@
       "messages": {
         "correcting": "Corrigiendo... esto puede tardar",
         "correctingError": "Error al corregir"
+      },
+      "footer": {
+        "title": "Acerca de Mayusc",
+        "description": "Mayusc es una herramienta gratuita para transformar y corregir textos de forma rápida y sencilla. Convierte texto a mayúsculas o minúsculas y mejora tu redacción con inteligencia artificial, todo procesado localmente en tu navegador para garantizar tu privacidad."
       }
     },
     "settings": {

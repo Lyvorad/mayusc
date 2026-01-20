@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="menu.css">
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5179821654523415"
-     crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
 
 </head>
 
@@ -30,20 +30,36 @@
     </div>
 
     <div class="textareas-text-tools">
-        <textarea id="inputText" data-i18n="pages.textTools.inputPlaceholder" 
-                  data-i18n-attr="placeholder" 
-                  placeholder="Enter your text here..."></textarea>
-        
-        <textarea id="outputText" readonly 
-                  data-i18n="pages.textTools.outputPlaceholder"
-                  data-i18n-attr="placeholder"
-                  placeholder="Your result will appear here..."></textarea>
+        <textarea id="inputText" data-i18n="pages.textTools.inputPlaceholder" data-i18n-attr="placeholder"
+            placeholder="Enter your text here..."></textarea>
+
+        <textarea id="outputText" readonly data-i18n="pages.textTools.outputPlaceholder" data-i18n-attr="placeholder"
+            placeholder="Your result will appear here..."></textarea>
     </div>
 
     <div class="end-button-text-tools hidden" id="endButtons">
         <button id="clearBtn" data-i18n="pages.textTools.buttons.clear">Clear</button>
         <button id="copyBtn" data-i18n="pages.textTools.buttons.copy">Copy</button>
     </div>
+
+    <!-- Footer Section -->
+    <footer class="text-tools-footer">
+        <div class="footer-summary">
+            <h3 data-i18n="pages.textTools.footer.title">Acerca de Mayusc</h3>
+            <p data-i18n="pages.textTools.footer.description">
+                Mayusc es una herramienta gratuita para transformar y corregir textos de forma rápida y sencilla.
+                Convierte texto a mayúsculas o minúsculas y mejora tu redacción con inteligencia artificial,
+                todo procesado localmente en tu navegador para garantizar tu privacidad.
+            </p>
+        </div>
+        <div class="footer-links">
+            <a href="terms.html" data-i18n="navigation.terms">Términos</a>
+            <span class="footer-separator">•</span>
+            <a href="privacy.html" data-i18n="navigation.privacy">Privacidad</a>
+            <span class="footer-separator">•</span>
+            <a href="cookies.html" data-i18n="navigation.cookies">Cookies</a>
+        </div>
+    </footer>
 
     <script src="menu.js"></script>
     <script src="language-manager.js"></script> <!-- AÑADIR ESTO -->
@@ -59,6 +75,7 @@
             });
     </script>
     <script src="text_tools.js"></script>
+
 
 </body>
 

@@ -20,27 +20,68 @@
   },
   "pages": {
     "home": {
-      "title": "Home",
-      "subtitle": "Your all-in-one tool for text transformation.",
-      "textToolsButton": "Text Tools",
-      "info": {
-        "title": "Why use Mayusc?",
-        "description": "Mayusc is your definitive solution for text processing and formatting. Designed for students, writers, and professionals, our tool simplifies editing tasks with speed and precision. Transform your workflow with our advanced features completely free of charge.",
+      "title": "Mayusc: online tool to correct and transform texts easily",
+      "textToolsButton": "Go to Text Tools",
+      "intro": "Mayusc is a free web tool designed to help you transform, correct, and improve texts quickly and easily. It's designed for people who work with text daily and need immediate results without complications.",
+      "intro2": "Unlike other platforms, Mayusc allows you to convert text to uppercase or lowercase, improve writing, and correct common errors without registration. The entire process is done directly in the browser, prioritizing user privacy and convenience.",
+      "intro3": "This platform is ideal for both one-time uses and repetitive editing tasks, offering a clear, direct experience focused on productivity.",
+      "whatIsItFor": {
+        "title": "What is Mayusc for?",
+        "intro": "Mayusc is used to simplify tasks related to text editing. With this tool you can:",
         "features": {
-          "case": {
-            "title": "Smart Transformation",
-            "desc": "Instantly convert between uppercase, lowercase, and more formatting styles."
-          },
-          "ai": {
-            "title": "AI Powered",
-            "desc": "Leverage artificial intelligence to correct grammar and enhance style automatically."
-          },
-          "privacy": {
-            "title": "Privacy First",
-            "desc": "Your text is processed locally. We guarantee 100% privacy and security."
-          }
+          "convert": "Convert text to uppercase or lowercase in seconds",
+          "correct": "Correct grammatical and spelling errors",
+          "improve": "Improve the clarity and style of a text",
+          "prepare": "Prepare content for academic work, social media, or professional documents"
+        },
+        "goal": "Its main goal is to save time and reduce errors in texts of any length."
+      },
+      "whoCanUse": {
+        "title": "Who can use Mayusc?",
+        "intro": "Mayusc is designed for different types of users, including:",
+        "users": {
+          "students": "Students, who need to correct assignments and homework",
+          "creators": "Content creators, who seek to improve the quality of their texts",
+          "professionals": "Professionals, who write emails, reports, or documents",
+          "social": "People who work with social media, where text formatting is key"
+        },
+        "noTech": "No technical knowledge is required to use the platform."
+      },
+      "howItWorks": {
+        "title": "How Mayusc works",
+        "description": "Mayusc works very simply. You just need to paste your text in the corresponding area, select the action you want to perform, and get the result instantly.",
+        "simple": "There are no complex processes or unnecessary steps. The tool is designed so that anyone can use it from the first moment, without a learning curve."
+      },
+      "advantages": {
+        "title": "Advantages of using Mayusc over other tools",
+        "description": "One of the main advantages of Mayusc is its focus on simplicity and privacy. Unlike many similar tools, it doesn't require creating an account or sharing personal information.",
+        "updates": "Additionally, the platform is constantly updated to improve correction accuracy and offer a better user experience. All this makes it a reliable option for daily work with texts."
+      },
+      "privacy": {
+        "title": "Privacy and security",
+        "description": "Privacy is a priority at Mayusc. Texts entered by the user are processed locally and are not stored on external servers. This ensures that information remains secure and confidential at all times.",
+        "important": "This feature is especially important for those who work with sensitive texts or private information."
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "q1": {
+          "question": "Is Mayusc free?",
+          "answer": "Yes, all main features of Mayusc are completely free."
+        },
+        "q2": {
+          "question": "Do I need to register to use the tool?",
+          "answer": "No. You can use Mayusc without creating an account."
+        },
+        "q3": {
+          "question": "Does it work on mobile phones and tablets?",
+          "answer": "Yes, the tool is compatible with mobile devices and adapts to different screen sizes."
+        },
+        "q4": {
+          "question": "Does it save my texts?",
+          "answer": "No. Mayusc does not store or share the texts you enter."
         }
-      }
+      },
+      "closing": "Mayusc is a practical solution for anyone who needs to work with texts quickly, securely, and efficiently. If you're looking for a simple, free tool focused on productivity, Mayusc is an excellent option."
     },
     "textTools": {
       "title": "Text Tools",
@@ -56,6 +97,10 @@
       "messages": {
         "correcting": "Correcting... this may take a moment",
         "correctingError": "Error correcting text"
+      },
+      "footer": {
+        "title": "About Mayusc",
+        "description": "Mayusc is a free tool to transform and correct texts quickly and easily. Convert text to uppercase or lowercase and improve your writing with artificial intelligence, all processed locally in your browser to ensure your privacy."
       }
     },
     "settings": {

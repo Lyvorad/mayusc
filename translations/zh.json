@@ -9,7 +9,7 @@
     "success": "成功"
   },
   "navigation": {
-    "home": "首页",
+    "home": "主页",
     "textTools": "文本工具",
     "settings": "设置",
     "credits": "致谢",
@@ -20,42 +20,87 @@
   },
   "pages": {
     "home": {
-      "title": "首页",
-      "subtitle": "一站式文本转换工具。",
-      "textToolsButton": "文本工具",
-      "info": {
-        "title": "为什么使用 Mayusc？",
-        "description": "Mayusc 是您进行文本处理和格式化的终极解决方案。专为学生、作家和专业人士设计，我们的工具以速度和精确度简化了编辑任务。利用我们可以完全免费的高级功能改变您的工作流程。",
+      "title": "Mayusc：轻松纠正和转换文本的在线工具",
+      "textToolsButton": "前往文本工具",
+      "intro": "Mayusc 是一个免费的网络工具，旨在帮助您快速轻松地转换、纠正和改进文本。它专为每天处理文本并需要立即结果而无需复杂操作的人设计。",
+      "intro2": "与其他平台不同，Mayusc 允许您无需注册即可将文本转换为大写或小写、改进写作并纠正常见错误。整个过程直接在浏览器中完成，优先考虑用户隐私和便利性。",
+      "intro3": "该平台非常适合一次性使用和重复编辑任务，提供清晰、直接、专注于生产力的体验。",
+      "whatIsItFor": {
+        "title": "Mayusc 有什么用？",
+        "intro": "Mayusc 用于简化与文本编辑相关的任务。使用此工具，您可以：",
         "features": {
-          "case": {
-            "title": "智能转换",
-            "desc": "并在大写、小写和更多格式样式之间即时转换。"
-          },
-          "ai": {
-            "title": "AI 驱动",
-            "desc": "利用人工智能自动纠正语法并增强风格。"
-          },
-          "privacy": {
-            "title": "隐私至上",
-            "desc": "您的文本在本地处理。我们保证 100% 的隐私和安全。"
-          }
+          "convert": "在几秒钟内将文本转换为大写或小写",
+          "correct": "纠正语法和拼写错误",
+          "improve": "提高文本的清晰度和风格",
+          "prepare": "为学术作业、社交媒体或专业文档准备内容"
+        },
+        "goal": "其主要目标是节省时间并减少任何长度文本中的错误。"
+      },
+      "whoCanUse": {
+        "title": "谁可以使用 Mayusc？",
+        "intro": "Mayusc 专为不同类型的用户设计，包括：",
+        "users": {
+          "students": "需要纠正作业和家庭作业的学生",
+          "creators": "寻求提高文本质量的内容创作者",
+          "professionals": "撰写电子邮件、报告或文档的专业人士",
+          "social": "从事社交媒体工作的人，文本格式至关重要"
+        },
+        "noTech": "使用该平台不需要技术知识。"
+      },
+      "howItWorks": {
+        "title": "Mayusc 如何工作",
+        "description": "Mayusc 的工作非常简单。您只需将文本粘贴到相应区域，选择要执行的操作，然后立即获得结果。",
+        "simple": "没有复杂的流程或不必要的步骤。该工具的设计使任何人都可以从第一刻起使用它，无需学习曲线。"
+      },
+      "advantages": {
+        "title": "使用 Mayusc 相比其他工具的优势",
+        "description": "Mayusc 的主要优势之一是它专注于简单性和隐私。与许多类似工具不同，它不需要创建帐户或共享个人信息。",
+        "updates": "此外，该平台不断更新以提高纠正的准确性并提供更好的用户体验。所有这些使其成为日常文本工作的可靠选择。"
+      },
+      "privacy": {
+        "title": "隐私和安全",
+        "description": "隐私是 Mayusc 的优先事项。用户输入的文本在本地处理，不存储在外部服务器上。这确保信息始终保持安全和机密。",
+        "important": "此功能对于处理敏感文本或私人信息的人尤为重要。"
+      },
+      "faq": {
+        "title": "常见问题",
+        "q1": {
+          "question": "Mayusc 免费吗？",
+          "answer": "是的，Mayusc 的所有主要功能都是完全免费的。"
+        },
+        "q2": {
+          "question": "我需要注册才能使用该工具吗？",
+          "answer": "不需要。您可以在不创建帐户的情况下使用 Mayusc。"
+        },
+        "q3": {
+          "question": "它可以在手机和平板电脑上使用吗？",
+          "answer": "是的，该工具与移动设备兼容，并适应不同的屏幕尺寸。"
+        },
+        "q4": {
+          "question": "它会保存我的文本吗？",
+          "answer": "不会。Mayusc 不存储或共享您输入的文本。"
         }
-      }
+      },
+      "closing": "Mayusc 是任何需要快速、安全、高效处理文本的人的实用解决方案。如果您正在寻找一个简单、免费且专注于生产力的工具，Mayusc 是一个绝佳的选择。"
     },
     "textTools": {
       "title": "文本工具",
-      "inputPlaceholder": "在此输入文本...",
-      "outputPlaceholder": "结果将显示在这里...",
+      "inputPlaceholder": "在此输入您的文本...",
+      "outputPlaceholder": "您的结果将显示在此处...",
       "buttons": {
         "lowercase": "小写",
         "uppercase": "大写",
-        "aiCorrection": "AI 校正",
+        "aiCorrection": "AI 纠正",
         "clear": "清除",
         "copy": "复制"
       },
       "messages": {
-        "correcting": "正在校正…请稍候",
-        "correctingError": "文本校正出错"
+        "correcting": "正在纠正...这可能需要一些时间",
+        "correctingError": "纠正时出错"
+      },
+      "footer": {
+        "title": "关于 Mayusc",
+        "description": "Mayusc 是一个免费工具，可以快速轻松地转换和纠正文本。将文本转换为大写或小写，并使用人工智能改进您的写作，所有处理都在您的浏览器中本地进行，以确保您的隐私。"
       }
     },
     "settings": {
@@ -63,61 +108,61 @@
     },
     "credits": {
       "title": "致谢",
-      "subtitle": "由 Lyvorad 开发",
+      "subtitle": "由 Lyvorad 制作",
       "sections": {
-        "developers": "开发者与合作者",
+        "developers": "开发人员和贡献者",
         "technologies": "使用的技术",
-        "acknowledgments": "特别致谢",
+        "acknowledgments": "特别感谢",
         "versionHistory": "版本历史",
-        "policies": "政策与条款",
-        "contact": "联系方式",
+        "policies": "政策和条款",
+        "contact": "联系",
         "suggestions": "建议"
       },
       "team": {
-        "principal": "核心团队",
-        "lyvorad": "Lyvorad - 主要开发与设计",
-        "bfs": "B/FS 开发 - Gravity 系统",
+        "principal": "主要团队",
+        "lyvorad": "Lyvorad - 主要开发和设计",
+        "bfs": "开发 B/FS - Gravity 系统",
         "uxui": "UX/UI 设计 - 视觉叙事",
-        "qa": "质量测试 - 混沌工程"
+        "qa": "QA 测试 - 混沌工程"
       },
       "technologies": {
-        "frontend": "前端：HTML5, CSS3, 原生 JavaScript",
+        "frontend": "前端：HTML5、CSS3、Vanilla JavaScript",
         "icons": "图标：Google Material Icons",
         "hosting": "托管：Render",
         "versionControl": "版本控制：Git 和 GitHub"
       },
-      "acknowledgmentsText": "感谢所有测试 Mayusc 并提供改进建议的用户。",
+      "acknowledgmentsText": "感谢所有测试 Mayusc 并发送建议的用户。",
       "versions": {
-        "current": "v1.0.0（当前）- 基础功能初始版本",
-        "upcoming": "v1.1.0（即将推出）- 更多文本工具与 AI 改进"
+        "current": "v1.0.0（当前）- 初始版本",
+        "upcoming": "v1.1.0（即将推出）- 更多工具和 AI 改进"
       },
       "policies": {
-        "privacy": "隐私政策：我们不会存储您的文本。",
-        "terms": "使用条款：Mayusc 可免费用于个人和教育用途。",
-        "limitations": "限制：商业用途请联系团队。"
+        "privacy": "隐私政策：我们不存储您的文本。",
+        "terms": "使用条款：免费供个人和教育使用。",
+        "limitations": "限制：商业使用请联系我们。"
       },
-      "contactText": "技术支持、合作或咨询：",
+      "contactText": "技术支持或合作：",
       "email": "电子邮件：",
       "website": "网站：",
-      "suggestionsText": "发送改进建议\n报告发现的任何错误",
-      "footer": "© 2026 Lyvorad. 保留所有权利。"
+      "suggestionsText": "发送您的建议\n报告您发现的任何错误",
+      "footer": "© 2026 Lyvorad。保留所有权利。"
     },
     "privacy": {
       "title": "隐私政策",
-      "content": "<p><strong>最后更新：2025年12月29日</strong></p><p>欢迎来到 Mayusc.lat。我们非常重视您的隐私。</p><h3>1. 我们收集的信息</h3><p>目前的 Mayusc.lat <strong>不直接收集个人身份数据</strong>。</p><h3>2. Google AdSense 和 Cookie</h3><p>我们使用 <strong>Google AdSense</strong> 展示广告。Google 使用 Cookie 根据您的访问记录展示广告。</p><ul><li>用户可以在 <a href='https://www.google.com/settings/ads' target='_blank'>广告设置</a> 中停用个性化广告。</li></ul>"
+      "content": "<p><strong>最后更新：2025年12月29日</strong></p><p>欢迎访问 Mayusc.lat。我们非常重视您的隐私。</p><h3>1. 我们收集的信息</h3><p>目前，Mayusc.lat <strong>不直接收集可识别的个人数据</strong>。</p><h3>2. Google AdSense 和 Cookies</h3><p>我们使用 <strong>Google AdSense</strong> 展示广告。Google 使用 cookies 根据您的访问展示广告。</p><ul><li>用户可以在<a href='https://www.google.com/settings/ads' target='_blank'>广告设置</a>中选择退出个性化广告。</li></ul>"
     },
     "terms": {
       "title": "条款和条件",
-      "content": "<p><strong>最后更新：2025年12月29日</strong></p><p>访问 Mayusc.lat 即表示您同意遵守以下条款。</p><h3>1. 网站使用</h3><p>内容仅供一般信息和个人使用。</p>"
+      "content": "<p><strong>最后更新：2025年12月29日</strong></p><p>访问 Mayusc.lat，即表示您同意遵守以下条款。</p><h3>1. 网站使用</h3><p>内容仅供您的一般信息和个人使用。</p>"
     },
     "cookies": {
       "title": "Cookie 政策",
-      "content": "<p>Cookie 是保存在您设备上的小型文本文件。</p><h3>我们如何使用 Cookie？</h3><p>我们使用 Cookie 用于：</p><ul><li>启用功能。</li><li>提供分析。</li><li>投放广告 (Google AdSense)。</li></ul>"
+      "content": "<p>Cookie 是保存在您设备上的小文本文件。</p><h3>我们如何使用 cookies？</h3><p>我们使用 cookies 用于：</p><ul><li>启用功能。</li><li>提供分析。</li><li>展示广告（Google AdSense）。</li></ul>"
     },
     "contact": {
-      "title": "联系我们",
-      "intro": "我们随时为您提供帮助。如有任何问题，请联系我们。",
-      "response_time": "我们通常在 24-48 工作小时内回复。"
+      "title": "联系",
+      "intro": "我们在这里提供帮助。如有任何问题，请联系我们。",
+      "response_time": "我们努力在 24-48 个工作小时内回复。"
     }
   },
   "menu": {

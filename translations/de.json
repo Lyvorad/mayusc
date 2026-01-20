@@ -14,48 +14,93 @@
     "settings": "Einstellungen",
     "credits": "Credits",
     "privacy": "Datenschutz",
-    "terms": "AGB",
+    "terms": "Bedingungen",
     "cookies": "Cookies",
     "contact": "Kontakt"
   },
   "pages": {
     "home": {
-      "title": "Startseite",
-      "subtitle": "Ihr All-in-One-Tool zur Textumwandlung.",
-      "textToolsButton": "Textwerkzeuge",
-      "info": {
-        "title": "Warum Mayusc verwenden?",
-        "description": "Mayusc ist Ihre definitive Lösung für Textverarbeitung und Formatierung. Entwickelt für Studenten, Schriftsteller und Profis, vereinfacht unser Tool Bearbeitungsaufgaben mit Geschwindigkeit und Präzision. Verwandeln Sie Ihren Arbeitsablauf mit unseren erweiterten Funktionen völlig kostenlos.",
+      "title": "Mayusc: Online-Tool zum einfachen Korrigieren und Transformieren von Texten",
+      "textToolsButton": "Zu den Textwerkzeugen",
+      "intro": "Mayusc ist ein kostenloses Web-Tool, das Ihnen hilft, Texte schnell und einfach zu transformieren, zu korrigieren und zu verbessern. Es ist für Menschen gedacht, die täglich mit Text arbeiten und sofortige Ergebnisse ohne Komplikationen benötigen.",
+      "intro2": "Im Gegensatz zu anderen Plattformen ermöglicht Mayusc die Konvertierung von Text in Groß- oder Kleinbuchstaben, die Verbesserung der Schreibweise und die Korrektur häufiger Fehler ohne Registrierung. Der gesamte Prozess findet direkt im Browser statt und priorisiert die Privatsphäre und den Komfort des Benutzers.",
+      "intro3": "Diese Plattform ist ideal sowohl für punktuelle Nutzungen als auch für sich wiederholende Bearbeitungsaufgaben und bietet eine klare, direkte und auf Produktivität ausgerichtete Erfahrung.",
+      "whatIsItFor": {
+        "title": "Wofür ist Mayusc?",
+        "intro": "Mayusc dient zur Vereinfachung von Aufgaben im Zusammenhang mit der Textbearbeitung. Mit diesem Tool können Sie:",
         "features": {
-          "case": {
-            "title": "Intelligente Transformation",
-            "desc": "Konvertieren Sie sofort zwischen Großschreibung, Kleinschreibung und weiteren Formatierungsstilen."
-          },
-          "ai": {
-            "title": "KI-gestützt",
-            "desc": "Nutzen Sie künstliche Intelligenz, um Grammatik zu korrigieren und den Stil automatisch zu verbessern."
-          },
-          "privacy": {
-            "title": "Datenschutz zuerst",
-            "desc": "Ihr Text wird lokal verarbeitet. Wir garantieren 100% Datenschutz und Sicherheit."
-          }
+          "convert": "Text in Sekunden in Groß- oder Kleinbuchstaben konvertieren",
+          "correct": "Grammatik- und Rechtschreibfehler korrigieren",
+          "improve": "Die Klarheit und den Stil eines Textes verbessern",
+          "prepare": "Inhalte für akademische Arbeiten, soziale Medien oder professionelle Dokumente vorbereiten"
+        },
+        "goal": "Das Hauptziel ist es, Zeit zu sparen und Fehler in Texten jeder Länge zu reduzieren."
+      },
+      "whoCanUse": {
+        "title": "Wer kann Mayusc verwenden?",
+        "intro": "Mayusc ist für verschiedene Benutzertypen konzipiert, darunter:",
+        "users": {
+          "students": "Studenten, die Arbeiten und Aufgaben korrigieren müssen",
+          "creators": "Content-Ersteller, die die Qualität ihrer Texte verbessern möchten",
+          "professionals": "Fachleute, die E-Mails, Berichte oder Dokumente verfassen",
+          "social": "Personen, die mit sozialen Medien arbeiten, wo die Textformatierung entscheidend ist"
+        },
+        "noTech": "Es sind keine technischen Kenntnisse erforderlich, um die Plattform zu nutzen."
+      },
+      "howItWorks": {
+        "title": "Wie funktioniert Mayusc",
+        "description": "Die Funktionsweise von Mayusc ist sehr einfach. Sie müssen nur Ihren Text in den entsprechenden Bereich einfügen, die gewünschte Aktion auswählen und das Ergebnis sofort erhalten.",
+        "simple": "Es gibt keine komplexen Prozesse oder unnötigen Schritte. Das Tool ist so konzipiert, dass jeder es vom ersten Moment an ohne Lernkurve nutzen kann."
+      },
+      "advantages": {
+        "title": "Vorteile von Mayusc gegenüber anderen Tools",
+        "description": "Einer der Hauptvorteile von Mayusc ist der Fokus auf Einfachheit und Datenschutz. Im Gegensatz zu vielen ähnlichen Tools ist keine Kontoerstellung oder Weitergabe persönlicher Informationen erforderlich.",
+        "updates": "Darüber hinaus wird die Plattform ständig aktualisiert, um die Genauigkeit der Korrekturen zu verbessern und eine bessere Benutzererfahrung zu bieten. All dies macht es zu einer zuverlässigen Option für die tägliche Arbeit mit Texten."
+      },
+      "privacy": {
+        "title": "Datenschutz und Sicherheit",
+        "description": "Datenschutz hat bei Mayusc Priorität. Die vom Benutzer eingegebenen Texte werden lokal verarbeitet und nicht auf externen Servern gespeichert. Dies gewährleistet, dass die Informationen jederzeit sicher und vertraulich bleiben.",
+        "important": "Diese Funktion ist besonders wichtig für diejenigen, die mit sensiblen Texten oder privaten Informationen arbeiten."
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "q1": {
+          "question": "Ist Mayusc kostenlos?",
+          "answer": "Ja, alle Hauptfunktionen von Mayusc sind völlig kostenlos."
+        },
+        "q2": {
+          "question": "Muss ich mich registrieren, um das Tool zu verwenden?",
+          "answer": "Nein. Sie können Mayusc ohne Kontoerstellung verwenden."
+        },
+        "q3": {
+          "question": "Funktioniert es auf Mobiltelefonen und Tablets?",
+          "answer": "Ja, das Tool ist mit mobilen Geräten kompatibel und passt sich verschiedenen Bildschirmgrößen an."
+        },
+        "q4": {
+          "question": "Speichert es meine Texte?",
+          "answer": "Nein. Mayusc speichert oder teilt die von Ihnen eingegebenen Texte nicht."
         }
-      }
+      },
+      "closing": "Mayusc ist eine praktische Lösung für jeden, der schnell, sicher und effizient mit Texten arbeiten muss. Wenn Sie nach einem einfachen, kostenlosen und auf Produktivität ausgerichteten Tool suchen, ist Mayusc eine ausgezeichnete Option."
     },
     "textTools": {
       "title": "Textwerkzeuge",
-      "inputPlaceholder": "Text hier eingeben...",
-      "outputPlaceholder": "Das Ergebnis erscheint hier...",
+      "inputPlaceholder": "Geben Sie hier Ihren Text ein...",
+      "outputPlaceholder": "Ihr Ergebnis erscheint hier...",
       "buttons": {
-        "lowercase": "kleinschreibung",
-        "uppercase": "GROSSSCHRIFT",
+        "lowercase": "kleinbuchstaben",
+        "uppercase": "GROSSBUCHSTABEN",
         "aiCorrection": "KI-Korrektur",
         "clear": "Löschen",
         "copy": "Kopieren"
       },
       "messages": {
-        "correcting": "Korrigieren... bitte warten",
-        "correctingError": "Fehler bei der Textkorrektur"
+        "correcting": "Korrigiere... dies kann einen Moment dauern",
+        "correctingError": "Fehler beim Korrigieren"
+      },
+      "footer": {
+        "title": "Über Mayusc",
+        "description": "Mayusc ist ein kostenloses Tool zum schnellen und einfachen Transformieren und Korrigieren von Texten. Konvertieren Sie Text in Groß- oder Kleinbuchstaben und verbessern Sie Ihre Schreibweise mit künstlicher Intelligenz, alles lokal in Ihrem Browser verarbeitet, um Ihre Privatsphäre zu gewährleisten."
       }
     },
     "settings": {
@@ -65,9 +110,9 @@
       "title": "Credits",
       "subtitle": "von Lyvorad",
       "sections": {
-        "developers": "Entwickler und Mitwirkende",
+        "developers": "Entwickler und Mitarbeiter",
         "technologies": "Verwendete Technologien",
-        "acknowledgments": "Besonderer Dank",
+        "acknowledgments": "Besondere Danksagungen",
         "versionHistory": "Versionsverlauf",
         "policies": "Richtlinien und Bedingungen",
         "contact": "Kontakt",
@@ -76,8 +121,8 @@
       "team": {
         "principal": "Hauptteam",
         "lyvorad": "Lyvorad - Hauptentwicklung und Design",
-        "bfs": "B/FS Entwicklung - Gravity-Systeme",
-        "uxui": "UX/UI Design - Visuelle Erzählung",
+        "bfs": "Entwicklung B/FS - Gravity-Systeme",
+        "uxui": "UX/UI-Design - Visuelle Erzählung",
         "qa": "QA-Tests - Chaos Engineering"
       },
       "technologies": {
@@ -86,38 +131,38 @@
         "hosting": "Hosting: Render",
         "versionControl": "Versionskontrolle: Git und GitHub"
       },
-      "acknowledgmentsText": "Danke an alle Nutzer, die Mayusc getestet und Vorschläge gemacht haben.",
+      "acknowledgmentsText": "Danke an alle Benutzer, die Mayusc getestet und Vorschläge gesendet haben.",
       "versions": {
         "current": "v1.0.0 (Aktuell) - Erste Version",
         "upcoming": "v1.1.0 (Demnächst) - Mehr Tools und KI-Verbesserungen"
       },
       "policies": {
-        "privacy": "Datenschutz: Wir speichern Ihren Text nicht.",
-        "terms": "Nutzungsbedingungen: Kostenlos für privaten und Bildungsgebrauch.",
+        "privacy": "Datenschutzrichtlinie: Wir speichern Ihren Text nicht.",
+        "terms": "Nutzungsbedingungen: Kostenlos für persönliche und Bildungszwecke.",
         "limitations": "Einschränkungen: Für kommerzielle Nutzung kontaktieren Sie uns."
       },
-      "contactText": "Technischer Support oder Kooperationen:",
+      "contactText": "Technischer Support oder Zusammenarbeit:",
       "email": "E-Mail:",
       "website": "Webseite:",
-      "suggestionsText": "Senden Sie Ihre Vorschläge\nMelden Sie Fehler",
+      "suggestionsText": "Senden Sie Ihre Vorschläge\nMelden Sie gefundene Fehler",
       "footer": "© 2026 Lyvorad. Alle Rechte vorbehalten."
     },
     "privacy": {
-      "title": "Datenschutzerklärung",
-      "content": "<p><strong>Letzte Aktualisierung: 29. Dezember 2025</strong></p><p>Willkommen bei Mayusc.lat. Wir nehmen Ihren Datenschutz sehr ernst.</p><h3>1. Informationen, die wir sammeln</h3><p>Derzeit sammelt Mayusc.lat <strong>keine persönlich identifizierbaren Daten</strong> direkt.</p><h3>2. Google AdSense und Cookies</h3><p>Wir verwenden <strong>Google AdSense</strong>. Google verwendet Cookies, um Anzeigen basierend auf Ihren Besuchen zu schalten.</p><ul><li>Nutzer können personalisierte Werbung in den <a href='https://www.google.com/settings/ads' target='_blank'>Anzeigeneinstellungen</a> deaktivieren.</li></ul>"
+      "title": "Datenschutzrichtlinie",
+      "content": "<p><strong>Letzte Aktualisierung: 29. Dezember 2025</strong></p><p>Willkommen bei Mayusc.lat. Wir nehmen Ihre Privatsphäre sehr ernst.</p><h3>1. Informationen, die wir sammeln</h3><p>Derzeit sammelt Mayusc.lat <strong>keine persönlich identifizierbaren Daten</strong> direkt.</p><h3>2. Google AdSense und Cookies</h3><p>Wir verwenden <strong>Google AdSense</strong>, um Anzeigen anzuzeigen. Google verwendet Cookies, um Anzeigen basierend auf Ihren Besuchen zu schalten.</p><ul><li>Benutzer können personalisierte Werbung in den <a href='https://www.google.com/settings/ads' target='_blank'>Anzeigeneinstellungen</a> deaktivieren.</li></ul>"
     },
     "terms": {
       "title": "Allgemeine Geschäftsbedingungen",
-      "content": "<p><strong>Letzte Aktualisierung: 29. Dezember 2025</strong></p><p>Durch den Zugriff auf Mayusc.lat stimmen Sie den folgenden Bedingungen zu.</p><h3>1. Nutzung der Seite</h3><p>Der Inhalt dient nur Ihrer allgemeinen Information.</p>"
+      "content": "<p><strong>Letzte Aktualisierung: 29. Dezember 2025</strong></p><p>Durch den Zugriff auf Mayusc.lat stimmen Sie zu, die folgenden Bedingungen einzuhalten.</p><h3>1. Nutzung der Website</h3><p>Der Inhalt dient nur zu Ihrer allgemeinen Information und persönlichen Nutzung.</p>"
     },
     "cookies": {
       "title": "Cookie-Richtlinie",
-      "content": "<p>Ein Cookie ist eine kleine Textdatei, die auf Ihrem Gerät gespeichert wird.</p><h3>Wie verwenden wir Cookies?</h3><p>Wir verwenden Cookies für:</p><ul><li>Funktionalität.</li><li>Analysen.</li><li>Werbung (Google AdSense).</li></ul>"
+      "content": "<p>Ein Cookie ist eine kleine Textdatei, die auf Ihrem Gerät gespeichert wird.</p><h3>Wie verwenden wir Cookies?</h3><p>Wir verwenden Cookies für:</p><ul><li>Funktionen aktivieren.</li><li>Analysen bereitstellen.</li><li>Anzeigen schalten (Google AdSense).</li></ul>"
     },
     "contact": {
       "title": "Kontakt",
       "intro": "Wir sind hier, um zu helfen. Kontaktieren Sie uns bei Fragen.",
-      "response_time": "Wir antworten in der Regel innerhalb von 24-48 Stunden."
+      "response_time": "Wir versuchen, innerhalb von 24-48 Werktagen zu antworten."
     }
   },
   "menu": {
